@@ -1,934 +1,2189 @@
-<!DOCTYPE html><html lang="en" class="dark"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="preload" as="image" href="assets/logo-trikaya-new.png"/><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="assets/styles.css" data-precedence="default"/><title>TRIKAYA MUN 2026 — Diplomacy. Beyond. Dimensions.</title><meta name="author" content="TRIKAYA MUN"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="TRIKAYA MUN 2026 — Diplomacy. Beyond. Dimensions."/><meta name="twitter:description" content="TRIKAYA MUN 2026 — a premier Model UN conference for young leaders. 24–25 October 2026. Seven committees. One movement of ideas."/><meta name="description" content="TRIKAYA MUN 2026 · 24–25 October 2026. Seven committees, premium experience, a movement of young leaders."/><meta property="og:title" content="TRIKAYA MUN 2026"/><meta property="og:description" content="Diplomacy. Beyond. Dimensions. 24–25 October 2026."/><meta property="og:url" content="/"/><link rel="canonical" href="index.html"/>
-<style>
-	@font-face {
-		font-family: 'CameraPlainVariable';
-		src: url('https://cdn.gpteng.co/mcp-widgets/v1/fonts/CameraPlainVariable.woff2') format('woff2');
-		font-weight: 100 900;
-		font-style: normal;
-		font-display: swap;
-	}
+<!DOCTYPE html>
+<html lang="en" class="dark">
+
+<head>
+  <meta charSet="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="preload" as="image" href="assets/logo-trikaya-new.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Manrope:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css" data-precedence="default" />
+  <title>TRIKAYA MUN 2026 — Diplomacy. Beyond. Dimensions.</title>
+  <meta name="author" content="TRIKAYA MUN" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="TRIKAYA MUN 2026 — Diplomacy. Beyond. Dimensions." />
+  <meta name="twitter:description"
+    content="TRIKAYA MUN 2026 — a premier Model UN conference for young leaders. 24–25 October 2026. Seven committees. One movement of ideas." />
+  <meta name="description"
+    content="TRIKAYA MUN 2026 · 24–25 October 2026. Seven committees, premium experience, a movement of young leaders." />
+  <meta property="og:title" content="TRIKAYA MUN 2026" />
+  <meta property="og:description" content="Diplomacy. Beyond. Dimensions. 24–25 October 2026." />
+  <meta property="og:url" content="/" />
+  <link rel="canonical" href="index.html" />
+  <style>
+    @font-face {
+      font-family: 'CameraPlainVariable';
+      src: url('https://cdn.gpteng.co/mcp-widgets/v1/fonts/CameraPlainVariable.woff2') format('woff2');
+      font-weight: 100 900;
+      font-style: normal;
+      font-display: swap;
+    }
 
 
-/* ===== TYPOGRAPHY UPGRADE ===== */
-:root {
-  --font-heading: 'Playfair Display', 'Cormorant Garamond', serif;
-  --font-body: 'Manrope', system-ui, sans-serif;
-}
-body { font-family: var(--font-body); letter-spacing: 0.01em; }
+    /* ===== TYPOGRAPHY UPGRADE ===== */
+    :root {
+      --font-heading: 'Playfair Display', 'Cormorant Garamond', serif;
+      --font-body: 'Manrope', system-ui, sans-serif;
+    }
 
-/* Improve heading hierarchy */
-h1, h2, h3, h4, .font-display { font-family: var(--font-heading) !important; letter-spacing: 0.02em; }
-h2 { letter-spacing: 0.04em; }
-p, label, input, textarea, button, a { font-family: var(--font-body); }
-.text-muted-foreground { letter-spacing: 0.015em; }
+    body {
+      font-family: var(--font-body);
+      letter-spacing: 0.01em;
+    }
 
-/* ===== UI POLISH ===== */
-.glass { transition: box-shadow 0.3s ease, transform 0.3s ease; }
-.glass:hover { box-shadow: 0 8px 32px rgba(0,0,0,0.28), 0 0 0 1px rgba(210,110,245,0.12); }
-section { padding-top: 6rem; padding-bottom: 6rem; }
-.flip-card { border-radius: 16px; }
-.rounded-2xl { border-radius: 16px !important; }
-.rounded-3xl { border-radius: 24px !important; }
-input, textarea { transition: border-color 0.2s, box-shadow 0.2s; font-family: var(--font-body) !important; }
-input:focus, textarea:focus { box-shadow: 0 0 0 2px rgba(210,110,245,0.2); }
-button, a[href] { transition: all 0.25s cubic-bezier(0.4,0,0.2,1) !important; }
+    /* Improve heading hierarchy */
+    h1,
+    h2,
+    h3,
+    h4,
+    .font-display {
+      font-family: var(--font-heading) !important;
+      letter-spacing: 0.02em;
+    }
 
-/* ===== RECOGNIZED BY SECTION ===== */
-.recognized-logo-card {
-  display: flex; flex-direction: column; align-items: center; justify-content: center;
-  gap: 1rem; padding: 2rem 1.5rem;
-  background: rgba(255,255,255,0.04); border: 1px solid rgba(210,110,245,0.15);
-  border-radius: 20px; cursor: default;
-  transition: transform 0.35s ease, box-shadow 0.35s ease, border-color 0.35s ease;
-}
-.recognized-logo-card:hover {
-  transform: translateY(-6px) scale(1.03);
-  box-shadow: 0 20px 60px rgba(0,0,0,0.4), 0 0 0 1px rgba(210,110,245,0.35);
-  border-color: rgba(210,110,245,0.4);
-}
-.recognized-logo-img {
-  width: 80px; height: 80px; object-fit: contain; filter: drop-shadow(0 4px 12px rgba(0,0,0,0.3));
-  transition: filter 0.3s;
-}
-.recognized-logo-card:hover .recognized-logo-img { filter: drop-shadow(0 6px 18px rgba(210,110,245,0.5)); }
-.recognized-logo-name { font-family: var(--font-body) !important; font-size: 0.7rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--gold, #c8aa5a); opacity: 0.85; text-align: center; margin-top: 0.25rem; }
+    h2 {
+      letter-spacing: 0.04em;
+    }
 
-/* ===== COMMITTEE CARDS - SIMPLIFIED ===== */
-.committee-front-content { display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%; }
-.committee-name-only { font-family: var(--font-heading) !important; font-size: 2rem; font-weight: 700; text-align: center; letter-spacing: 0.06em; }
-.committee-agenda-back { display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; height: 100%; gap: 1.5rem; padding: 1rem; }
-.committee-agenda-back .agenda-label { font-size: 0.6rem; letter-spacing: 0.3em; text-transform: uppercase; color: var(--gold, #c8aa5a); }
-.committee-agenda-back .agenda-text { font-size: 1rem; line-height: 1.6; font-style: italic; color: rgba(255,255,255,0.9); }
+    p,
+    label,
+    input,
+    textarea,
+    button,
+    a {
+      font-family: var(--font-body);
+    }
 
-/* ===== ELIGIBILITY SECTION ===== */
-.eligibility-section { position: relative; padding: 5rem 1rem; }
-.eligibility-box {
-  max-width: 700px; margin: 0 auto; text-align: center;
-  background: rgba(210,110,245,0.06); border: 1px solid rgba(210,110,245,0.25);
-  border-radius: 24px; padding: 3.5rem 3rem;
-  box-shadow: 0 8px 48px rgba(0,0,0,0.3);
-}
-.eligibility-icon { font-size: 2.8rem; margin-bottom: 1rem; display: block; }
-.eligibility-box h2 { font-family: var(--font-heading) !important; font-size: 2.8rem; margin-bottom: 1rem; }
-.eligibility-box p { font-size: 1.15rem; color: rgba(255,255,255,0.75); font-family: var(--font-body); }
+    .text-muted-foreground {
+      letter-spacing: 0.015em;
+    }
 
-.committee-name-only { margin-bottom: 0 !important; }
-.committee-fullform { font-size: 0.72rem; letter-spacing: 0.12em; text-transform: none; margin-top: 0.55rem; color: rgba(210,110,245,0.85); font-family: var(--font-body); font-weight: 500; line-height: 1.4; }
+    /* ===== UI POLISH ===== */
+    .glass {
+      transition: box-shadow 0.3s ease, transform 0.3s ease;
+    }
 
-/* ===== IMPORTANT NOTE BOX ===== */
-.important-note-box {
-  max-width: 860px; margin: 2.5rem auto 0;
-  background: rgba(210,110,245,0.06); border: 1px solid rgba(210,110,245,0.3);
-  border-left: 4px solid rgba(210,110,245,0.8); border-radius: 16px;
-  padding: 2rem 2.5rem; display: flex; gap: 1.5rem; align-items: flex-start;
-}
-.important-note-icon { font-size: 1.6rem; flex-shrink: 0; margin-top: 0.1rem; }
-.important-note-title { font-size: 0.65rem; letter-spacing: 0.3em; text-transform: uppercase; color: rgba(210,110,245,0.9); font-weight: 700; margin-bottom: 0.5rem; }
-.important-note-text { font-size: 0.9rem; color: rgba(255,255,255,0.75); line-height: 1.75; }
+    .glass:hover {
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.28), 0 0 0 1px rgba(210, 110, 245, 0.12);
+    }
 
-/* ===== DOWNLOAD BROCHURE BUTTON ===== */
-.brochure-btn-wrap { text-align: center; margin: 2.5rem 0; }
-.brochure-btn {
-  display: inline-flex; align-items: center; gap: 0.75rem;
-  padding: 1rem 2.2rem; border-radius: 100px;
-  background: rgba(255,255,255,0.07);
-  border: 1px solid rgba(210,110,245,0.45);
-  color: rgba(210,110,245,1); font-weight: 600; font-size: 0.95rem;
-  letter-spacing: 0.06em; text-decoration: none; text-transform: uppercase;
-  backdrop-filter: blur(12px);
-  box-shadow: 0 4px 24px rgba(0,0,0,0.25), inset 0 1px 0 rgba(255,255,255,0.07);
-  transition: all 0.3s ease;
-}
-.brochure-btn:hover {
-  background: rgba(210,110,245,0.15); border-color: rgba(210,110,245,0.8);
-  box-shadow: 0 8px 40px rgba(210,110,245,0.25), inset 0 1px 0 rgba(255,255,255,0.1);
-  transform: translateY(-2px) scale(1.03);
-  color: rgba(220,190,110,1);
-}
-.brochure-btn svg { width: 1.1rem; height: 1.1rem; stroke: currentColor; }
+    section {
+      padding-top: 6rem;
+      padding-bottom: 6rem;
+    }
 
-/* ===== FEEDBACK FORM ===== */
-.feedback-form-field { display: flex; flex-direction: column; }
-.feedback-form-field label { font-size: 0.6rem; letter-spacing: 0.3em; text-transform: uppercase; color: rgba(210,110,245,0.9); display: block; margin-bottom: 0.5rem; font-weight: 600; }
-.feedback-form-field input, .feedback-form-field textarea {
-  width: 100%; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.12);
-  border-radius: 12px; padding: 0.85rem 1rem; color: #f0eaf8;
-  font-family: var(--font-body); font-size: 0.95rem;
-  transition: border-color 0.25s, box-shadow 0.25s, background 0.25s;
-  -webkit-appearance: none;
-}
-.feedback-form-field input:focus, .feedback-form-field textarea:focus {
-  outline: none; border-color: rgba(183,139,255,0.7); box-shadow: 0 0 0 3px rgba(183,139,255,0.15);
-  background: rgba(255,255,255,0.07);
-}
-.feedback-form-field input::placeholder, .feedback-form-field textarea::placeholder { color: rgba(255,255,255,0.28); font-style: italic; }
-.feedback-form-field input:invalid:not(:placeholder-shown) { border-color: rgba(220,80,80,0.5); }
-@media (max-width: 640px) {
-  .feedback-form-field input, .feedback-form-field textarea { font-size: 1rem; padding: 0.9rem 0.85rem; }
-}
+    .flip-card {
+      border-radius: 16px;
+    }
 
-@media(max-width:640px){
-  .recognized-logo-card { padding: 1.5rem 1rem; }
-  .recognized-logo-img { width: 60px; height: 60px; }
-  .important-note-box { flex-direction: column; gap: 0.75rem; padding: 1.5rem 1.25rem; }
-  .eligibility-box { padding: 2.5rem 1.5rem; }
-}
+    .rounded-2xl {
+      border-radius: 16px !important;
+    }
 
-/* ===== FEATURED CUSTOM ID CARD ===== */
-.featured-card {
-  border: 1px solid rgba(210, 110, 245, 0.5) !important;
-  box-shadow: 0 0 40px rgba(210, 110, 245, 0.4), 0 8px 32px rgba(0, 0, 0, 0.3) !important;
-}
+    .rounded-3xl {
+      border-radius: 24px !important;
+    }
 
-.featured-card:hover {
-  box-shadow: 0 0 60px rgba(210, 110, 245, 0.6), 0 12px 48px rgba(0, 0, 0, 0.4) !important;
-  transform: translateY(-4px) scale(1.02) !important;
-}
+    input,
+    textarea {
+      transition: border-color 0.2s, box-shadow 0.2s;
+      font-family: var(--font-body) !important;
+    }
 
-/* Mobile responsive: full width for custom ID on mobile */
-@media (max-width: 768px) {
-  .featured-card {
-    grid-column: 1 / -1;
-  }
-}
+    input:focus,
+    textarea:focus {
+      box-shadow: 0 0 0 2px rgba(210, 110, 245, 0.2);
+    }
 
-/* Tablet and above: 2 columns */
-@media (min-width: 768px) {
-  .featured-card {
-    grid-column: span 2;
-  }
-}
+    button,
+    a[href] {
+      transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1) !important;
+    }
 
-/* Large screens: maintain 2-column span */
-@media (min-width: 1024px) {
-  .featured-card {
-    grid-column: span 2;
-  }
-}
+    /* ===== RECOGNIZED BY SECTION ===== */
+    .recognized-logo-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+      padding: 2rem 1.5rem;
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(210, 110, 245, 0.15);
+      border-radius: 20px;
+      cursor: default;
+      transition: transform 0.35s ease, box-shadow 0.35s ease, border-color 0.35s ease;
+    }
+
+    .recognized-logo-card:hover {
+      transform: translateY(-6px) scale(1.03);
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(210, 110, 245, 0.35);
+      border-color: rgba(210, 110, 245, 0.4);
+    }
+
+    .recognized-logo-img {
+      width: 80px;
+      height: 80px;
+      object-fit: contain;
+      filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.3));
+      transition: filter 0.3s;
+    }
+
+    .recognized-logo-card:hover .recognized-logo-img {
+      filter: drop-shadow(0 6px 18px rgba(210, 110, 245, 0.5));
+    }
+
+    .recognized-logo-name {
+      font-family: var(--font-body) !important;
+      font-size: 0.7rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--gold, #c8aa5a);
+      opacity: 0.85;
+      text-align: center;
+      margin-top: 0.25rem;
+    }
+
+    /* ===== COMMITTEE CARDS - SIMPLIFIED ===== */
+    .committee-front-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+    }
+
+    .committee-name-only {
+      font-family: var(--font-heading) !important;
+      font-size: 2rem;
+      font-weight: 700;
+      text-align: center;
+      letter-spacing: 0.06em;
+    }
+
+    .committee-agenda-back {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      height: 100%;
+      gap: 1.5rem;
+      padding: 1rem;
+    }
+
+    .committee-agenda-back .agenda-label {
+      font-size: 0.6rem;
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+      color: var(--gold, #c8aa5a);
+    }
+
+    .committee-agenda-back .agenda-text {
+      font-size: 1rem;
+      line-height: 1.6;
+      font-style: italic;
+      color: rgba(255, 255, 255, 0.9);
+    }
+
+    /* ===== ELIGIBILITY SECTION ===== */
+    .eligibility-section {
+      position: relative;
+      padding: 5rem 1rem;
+    }
+
+    .eligibility-box {
+      max-width: 700px;
+      margin: 0 auto;
+      text-align: center;
+      background: rgba(210, 110, 245, 0.06);
+      border: 1px solid rgba(210, 110, 245, 0.25);
+      border-radius: 24px;
+      padding: 3.5rem 3rem;
+      box-shadow: 0 8px 48px rgba(0, 0, 0, 0.3);
+    }
+
+    .eligibility-icon {
+      font-size: 2.8rem;
+      margin-bottom: 1rem;
+      display: block;
+    }
+
+    .eligibility-box h2 {
+      font-family: var(--font-heading) !important;
+      font-size: 2.8rem;
+      margin-bottom: 1rem;
+    }
+
+    .eligibility-box p {
+      font-size: 1.15rem;
+      color: rgba(255, 255, 255, 0.75);
+      font-family: var(--font-body);
+    }
+
+    .committee-name-only {
+      margin-bottom: 0 !important;
+    }
+
+    .committee-fullform {
+      font-size: 0.72rem;
+      letter-spacing: 0.12em;
+      text-transform: none;
+      margin-top: 0.55rem;
+      color: rgba(210, 110, 245, 0.85);
+      font-family: var(--font-body);
+      font-weight: 500;
+      line-height: 1.4;
+    }
+
+    /* ===== IMPORTANT NOTE BOX ===== */
+    .important-note-box {
+      max-width: 860px;
+      margin: 2.5rem auto 0;
+      background: rgba(210, 110, 245, 0.06);
+      border: 1px solid rgba(210, 110, 245, 0.3);
+      border-left: 4px solid rgba(210, 110, 245, 0.8);
+      border-radius: 16px;
+      padding: 2rem 2.5rem;
+      display: flex;
+      gap: 1.5rem;
+      align-items: flex-start;
+    }
+
+    .important-note-icon {
+      font-size: 1.6rem;
+      flex-shrink: 0;
+      margin-top: 0.1rem;
+    }
+
+    .important-note-title {
+      font-size: 0.65rem;
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+      color: rgba(210, 110, 245, 0.9);
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+    }
+
+    .important-note-text {
+      font-size: 0.9rem;
+      color: rgba(255, 255, 255, 0.75);
+      line-height: 1.75;
+    }
+
+    /* ===== DOWNLOAD BROCHURE BUTTON ===== */
+    .brochure-btn-wrap {
+      text-align: center;
+      margin: 2.5rem 0;
+    }
+
+    .brochure-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.75rem;
+      padding: 1rem 2.2rem;
+      border-radius: 100px;
+      background: rgba(255, 255, 255, 0.07);
+      border: 1px solid rgba(210, 110, 245, 0.45);
+      color: rgba(210, 110, 245, 1);
+      font-weight: 600;
+      font-size: 0.95rem;
+      letter-spacing: 0.06em;
+      text-decoration: none;
+      text-transform: uppercase;
+      backdrop-filter: blur(12px);
+      box-shadow: 0 4px 24px rgba(0, 0, 0, 0.25), inset 0 1px 0 rgba(255, 255, 255, 0.07);
+      transition: all 0.3s ease;
+    }
+
+    .brochure-btn:hover {
+      background: rgba(210, 110, 245, 0.15);
+      border-color: rgba(210, 110, 245, 0.8);
+      box-shadow: 0 8px 40px rgba(210, 110, 245, 0.25), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+      transform: translateY(-2px) scale(1.03);
+      color: rgba(220, 190, 110, 1);
+    }
+
+    .brochure-btn svg {
+      width: 1.1rem;
+      height: 1.1rem;
+      stroke: currentColor;
+    }
+
+    /* ===== FEEDBACK FORM ===== */
+    .feedback-form-field {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .feedback-form-field label {
+      font-size: 0.6rem;
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+      color: rgba(210, 110, 245, 0.9);
+      display: block;
+      margin-bottom: 0.5rem;
+      font-weight: 600;
+    }
+
+    .feedback-form-field input,
+    .feedback-form-field textarea {
+      width: 100%;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: 12px;
+      padding: 0.85rem 1rem;
+      color: #f0eaf8;
+      font-family: var(--font-body);
+      font-size: 0.95rem;
+      transition: border-color 0.25s, box-shadow 0.25s, background 0.25s;
+      -webkit-appearance: none;
+    }
+
+    .feedback-form-field input:focus,
+    .feedback-form-field textarea:focus {
+      outline: none;
+      border-color: rgba(183, 139, 255, 0.7);
+      box-shadow: 0 0 0 3px rgba(183, 139, 255, 0.15);
+      background: rgba(255, 255, 255, 0.07);
+    }
+
+    .feedback-form-field input::placeholder,
+    .feedback-form-field textarea::placeholder {
+      color: rgba(255, 255, 255, 0.28);
+      font-style: italic;
+    }
+
+    .feedback-form-field input:invalid:not(:placeholder-shown) {
+      border-color: rgba(220, 80, 80, 0.5);
+    }
+
+    @media (max-width: 640px) {
+
+      .feedback-form-field input,
+      .feedback-form-field textarea {
+        font-size: 1rem;
+        padding: 0.9rem 0.85rem;
+      }
+    }
+
+    @media(max-width:640px) {
+      .recognized-logo-card {
+        padding: 1.5rem 1rem;
+      }
+
+      .recognized-logo-img {
+        width: 60px;
+        height: 60px;
+      }
+
+      .important-note-box {
+        flex-direction: column;
+        gap: 0.75rem;
+        padding: 1.5rem 1.25rem;
+      }
+
+      .eligibility-box {
+        padding: 2.5rem 1.5rem;
+      }
+    }
+
+    /* ===== FEATURED CUSTOM ID CARD ===== */
+    .featured-card {
+      border: 1px solid rgba(210, 110, 245, 0.5) !important;
+      box-shadow: 0 0 40px rgba(210, 110, 245, 0.4), 0 8px 32px rgba(0, 0, 0, 0.3) !important;
+    }
+
+    .featured-card:hover {
+      box-shadow: 0 0 60px rgba(210, 110, 245, 0.6), 0 12px 48px rgba(0, 0, 0, 0.4) !important;
+      transform: translateY(-4px) scale(1.02) !important;
+    }
+
+    /* Mobile responsive: full width for custom ID on mobile */
+    @media (max-width: 768px) {
+      .featured-card {
+        grid-column: 1 / -1;
+      }
+    }
+
+    /* Tablet and above: 2 columns */
+    @media (min-width: 768px) {
+      .featured-card {
+        grid-column: span 2;
+      }
+    }
+
+    /* Large screens: maintain 2-column span */
+    @media (min-width: 1024px) {
+      .featured-card {
+        grid-column: span 2;
+      }
+    }
 
 
-.prize-pool-number{font-variant-numeric:tabular-nums;}
-</style>
-<meta property="og:image" content="https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/e1cc264e-4994-475a-ae0b-bd1ccf76b0ed/id-preview-a80861eb--ac88a134-1542-4d36-a5fe-2e918e587e23.lovable.app-1782374120850.png"><meta name="twitter:image" content="https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/e1cc264e-4994-475a-ae0b-bd1ccf76b0ed/id-preview-a80861eb--ac88a134-1542-4d36-a5fe-2e918e587e23.lovable.app-1782374120850.png">
-<style id="loading-screen-styles">
-#trikaya-loading-screen {
-  position: fixed; inset: 0; z-index: 99999;
-  display: flex; flex-direction: column; align-items: center; justify-content: center;
-  background: radial-gradient(ellipse at 50% 40%, #1a0a2e 0%, #0d0517 55%, #050210 100%);
-  transition: opacity 0.7s ease, visibility 0.7s ease;
-}
-#trikaya-loading-screen.hidden { opacity: 0; visibility: hidden; pointer-events: none; }
-#loading-logo {
-  width: 80px; height: 80px; object-fit: cover; border-radius: 50%;
-  animation: loadLogoFadeIn 0.9s ease forwards, loadGlow 2s ease-in-out infinite alternate;
-  opacity: 0;
-}
-@keyframes loadLogoFadeIn { from{opacity:0;transform:scale(0.85)} to{opacity:1;transform:scale(1)} }
-@keyframes loadGlow {
-  from { filter: drop-shadow(0 0 12px rgba(210,110,245,0.5)) drop-shadow(0 0 24px rgba(140,60,220,0.3)); }
-  to   { filter: drop-shadow(0 0 24px rgba(210,110,245,0.9)) drop-shadow(0 0 48px rgba(140,60,220,0.6)); }
-}
-#loading-title {
-  margin-top: 1.5rem;
-  font-family: 'Playfair Display', 'Cormorant Garamond', serif;
-  font-size: 2.2rem; font-weight: 700;
-  letter-spacing: 0.35em; text-transform: uppercase;
-  background: linear-gradient(90deg, #c8aa5a, #e8c97a, #d2a048, #f0d890, #c8aa5a);
-  background-size: 200% 100%;
-  -webkit-background-clip: text; -webkit-text-fill-color: transparent;
-  background-clip: text;
-  animation: loadFadeUp 0.8s 0.35s ease forwards, shimmerTitle 3s linear infinite;
-  opacity: 0;
-}
-@keyframes loadFadeUp { from{opacity:0;transform:translateY(14px)} to{opacity:1;transform:translateY(0)} }
-@keyframes shimmerTitle { 0%{background-position:200% 0} 100%{background-position:-200% 0} }
-#loading-sub {
-  margin-top: 0.5rem;
-  font-size: 0.65rem; letter-spacing: 0.45em; text-transform: uppercase;
-  color: rgba(255,255,255,0.45);
-  animation: loadFadeUp 0.8s 0.55s ease forwards;
-  opacity: 0;
-}
-#loading-progress-wrap {
-  position: absolute; bottom: 2.5rem; left: 50%; transform: translateX(-50%);
-  width: min(320px, 70vw);
-}
-#loading-progress-bg {
-  width: 100%; height: 2px; border-radius: 999px;
-  background: rgba(255,255,255,0.08);
-  overflow: hidden;
-}
-#loading-progress-bar {
-  height: 100%; width: 0%; border-radius: 999px;
-  background: linear-gradient(90deg, rgba(140,60,220,0.6), rgba(210,110,245,1), rgba(220,190,110,0.9));
-  box-shadow: 0 0 8px rgba(210,110,245,0.6);
-  transition: width 0.05s linear;
-}
-#loading-pct {
-  text-align: right; font-size: 0.6rem; letter-spacing: 0.2em;
-  color: rgba(210,110,245,0.7); margin-top: 0.4rem;
-}
+    .prize-pool-number {
+      font-variant-numeric: tabular-nums;
+    }
+  </style>
+  <meta property="og:image"
+    content="https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/e1cc264e-4994-475a-ae0b-bd1ccf76b0ed/id-preview-a80861eb--ac88a134-1542-4d36-a5fe-2e918e587e23.lovable.app-1782374120850.png">
+  <meta name="twitter:image"
+    content="https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/e1cc264e-4994-475a-ae0b-bd1ccf76b0ed/id-preview-a80861eb--ac88a134-1542-4d36-a5fe-2e918e587e23.lovable.app-1782374120850.png">
+  <style id="loading-screen-styles">
+    #trikaya-loading-screen {
+      position: fixed;
+      inset: 0;
+      z-index: 99999;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: radial-gradient(ellipse at 50% 40%, #1a0a2e 0%, #0d0517 55%, #050210 100%);
+      transition: opacity 0.7s ease, visibility 0.7s ease;
+    }
 
-/* Recognized By heading -> grid spacing (restores the missing .mb-7
+    #trikaya-loading-screen.hidden {
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+    }
+
+    #loading-logo {
+      width: 80px;
+      height: 80px;
+      object-fit: cover;
+      border-radius: 50%;
+      animation: loadLogoFadeIn 0.9s ease forwards, loadGlow 2s ease-in-out infinite alternate;
+      opacity: 0;
+    }
+
+    @keyframes loadLogoFadeIn {
+      from {
+        opacity: 0;
+        transform: scale(0.85)
+      }
+
+      to {
+        opacity: 1;
+        transform: scale(1)
+      }
+    }
+
+    @keyframes loadGlow {
+      from {
+        filter: drop-shadow(0 0 12px rgba(210, 110, 245, 0.5)) drop-shadow(0 0 24px rgba(140, 60, 220, 0.3));
+      }
+
+      to {
+        filter: drop-shadow(0 0 24px rgba(210, 110, 245, 0.9)) drop-shadow(0 0 48px rgba(140, 60, 220, 0.6));
+      }
+    }
+
+    #loading-title {
+      margin-top: 1.5rem;
+      font-family: 'Playfair Display', 'Cormorant Garamond', serif;
+      font-size: 2.2rem;
+      font-weight: 700;
+      letter-spacing: 0.35em;
+      text-transform: uppercase;
+      background: linear-gradient(90deg, #c8aa5a, #e8c97a, #d2a048, #f0d890, #c8aa5a);
+      background-size: 200% 100%;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      animation: loadFadeUp 0.8s 0.35s ease forwards, shimmerTitle 3s linear infinite;
+      opacity: 0;
+    }
+
+    @keyframes loadFadeUp {
+      from {
+        opacity: 0;
+        transform: translateY(14px)
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0)
+      }
+    }
+
+    @keyframes shimmerTitle {
+      0% {
+        background-position: 200% 0
+      }
+
+      100% {
+        background-position: -200% 0
+      }
+    }
+
+    #loading-sub {
+      margin-top: 0.5rem;
+      font-size: 0.65rem;
+      letter-spacing: 0.45em;
+      text-transform: uppercase;
+      color: rgba(255, 255, 255, 0.45);
+      animation: loadFadeUp 0.8s 0.55s ease forwards;
+      opacity: 0;
+    }
+
+    #loading-progress-wrap {
+      position: absolute;
+      bottom: 2.5rem;
+      left: 50%;
+      transform: translateX(-50%);
+      width: min(320px, 70vw);
+    }
+
+    #loading-progress-bg {
+      width: 100%;
+      height: 2px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.08);
+      overflow: hidden;
+    }
+
+    #loading-progress-bar {
+      height: 100%;
+      width: 0%;
+      border-radius: 999px;
+      background: linear-gradient(90deg, rgba(140, 60, 220, 0.6), rgba(210, 110, 245, 1), rgba(220, 190, 110, 0.9));
+      box-shadow: 0 0 8px rgba(210, 110, 245, 0.6);
+      transition: width 0.05s linear;
+    }
+
+    #loading-pct {
+      text-align: right;
+      font-size: 0.6rem;
+      letter-spacing: 0.2em;
+      color: rgba(210, 110, 245, 0.7);
+      margin-top: 0.4rem;
+    }
+
+    /* Recognized By heading -> grid spacing (restores the missing .mb-7
    utility referenced on the section subheading, using the same
    var(--spacing) scale as every other generated spacing utility) */
-.mb-7 { margin-bottom: calc(var(--spacing) * 7); }
-
-/* Horizontal Recognized By cards */
-.recognized-logo-card-h {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 20px;
-  background: rgba(255,255,255,0.04);
-  border: 1px solid rgba(210,170,80,0.15);
-  border-radius: 16px;
-  padding: 1.25rem 1.5rem;
-  transition: all 0.3s ease;
-}
-.recognized-logo-card-h:hover {
-  background: rgba(210,170,80,0.07);
-  border-color: rgba(210,170,80,0.3);
-  transform: translateY(-3px);
-}
-.recognized-logo-wrap {
-  flex-shrink: 0;
-  width: 90px;
-  height: 90px;
-  border-radius: 50%;
-  background: linear-gradient(155deg, rgba(186,128,255,0.24) 0%, rgba(124,64,200,0.13) 55%, rgba(255,255,255,0.04) 100%);
-  border: 1px solid rgba(210,150,255,0.28);
-  -webkit-backdrop-filter: blur(8px);
-  backdrop-filter: blur(8px);
-  box-shadow: 0 4px 16px rgba(150,80,255,0.22), inset 0 1px 1px rgba(255,255,255,0.18), inset 0 -3px 8px rgba(0,0,0,0.18);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  transition: box-shadow 0.35s ease, border-color 0.35s ease;
-}
-.recognized-logo-card-h:hover .recognized-logo-wrap {
-  box-shadow: 0 6px 22px rgba(180,110,255,0.35), inset 0 1px 1px rgba(255,255,255,0.22), inset 0 -3px 8px rgba(0,0,0,0.18);
-  border-color: rgba(210,150,255,0.5);
-}
-.recognized-logo-img-h {
-  width: 60px;
-  height: 60px;
-  object-fit: contain;
-  display: block;
-}
-.recognized-logo-text {
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-}
-.recognized-logo-title {
-  font-family: var('--font-display', 'Playfair Display', serif);
-  font-size: 1.1rem;
-  font-weight: 700;
-  color: #B78BFF;
-  line-height: 1.2;
-}
-.recognized-logo-desc {
-  font-family: var(--font-body, 'Manrope', sans-serif);
-  font-size: 0.82rem;
-  color: rgba(255,255,255,0.6);
-  line-height: 1.5;
-}
-@media (max-width: 480px) {
-  .recognized-logo-card-h { flex-direction: column; text-align: center; align-items: center; }
-  .recognized-logo-title { font-size: 1rem; }
-}
-
-@media (max-width: 480px) {
-  #loading-logo { width: 64px; height: 64px; }
-  #loading-title { font-size: 1.4rem; letter-spacing: 0.2em; margin-top: 1rem; }
-  #loading-sub { font-size: 0.65rem; letter-spacing: 0.25em; margin-top: 0.4rem; }
-  #loading-progress-wrap { width: 80%; }
-}
-@media (max-width: 320px) {
-  #loading-logo { width: 52px; height: 52px; }
-  #loading-title { font-size: 1.1rem; letter-spacing: 0.15em; }
-}
-
-.prize-pool-number{font-variant-numeric:tabular-nums;}
-</style>
-</head><body>
-<div id="trikaya-loading-screen" aria-hidden="true">
-  <img id="loading-logo" src="assets/logo-trikaya-new.png" alt="TRIKAYA MUN Logo"/>
-  <div id="loading-title">TRIKAYA MUN 2026</div>
-  <div id="loading-sub">Diplomacy &middot; Beyond &middot; Dimensions</div>
-  <div id="loading-progress-wrap">
-    <div id="loading-progress-bg"><div id="loading-progress-bar"></div></div>
-    <div id="loading-pct">0%</div>
-  </div>
-</div>
-<script>
-(function(){
-  var bar = document.getElementById('loading-progress-bar');
-  var pct = document.getElementById('loading-pct');
-  var screen = document.getElementById('trikaya-loading-screen');
-  var start = Date.now();
-  var duration = 3000;
-  function step(){
-    var elapsed = Date.now() - start;
-    var p = Math.min(100, Math.round((elapsed / duration) * 100));
-    bar.style.width = p + '%';
-    pct.textContent = p + '%';
-    if(elapsed < duration){ requestAnimationFrame(step); }
-    else {
-      screen.classList.add('hidden');
-      setTimeout(function(){ screen.style.display='none'; }, 750);
+    .mb-7 {
+      margin-bottom: calc(var(--spacing) * 7);
     }
-  }
-  requestAnimationFrame(step);
-})();
-</script>
-<div class="fixed inset-0 z-[100] flex items-center justify-center bg-navy-deep transition-opacity duration-700 opacity-0 pointer-events-none" style="display:none"><div class="flex flex-col items-center gap-6"><img src="assets/logo-trikaya-new.png" alt="" class="w-24 h-24 animate-glow-pulse"/><div class="font-display text-3xl tracking-[0.3em] text-gradient-gold">TRIKAYA</div><div class="text-[10px] uppercase tracking-[0.4em] text-muted-foreground">Diplomacy · Beyond · Dimensions</div><div class="w-48 h-px bg-gold/20 overflow-hidden"><div class="h-full w-1/3 bg-gradient-to-r from-transparent via-gold to-transparent animate-[shimmer_1.4s_linear_infinite]" style="background-size:200% 100%"></div></div></div></div><div class="fixed top-0 left-0 right-0 h-[2px] z-[60] bg-transparent"><div class="h-full bg-gradient-to-r from-gold via-gold-glow to-gold transition-[width] duration-150" style="width:0%"></div></div><header class="fixed top-0 inset-x-0 z-50 transition-all duration-500 py-4"><div class="mx-auto max-w-7xl px-4 sm:px-6 transition-all duration-500 "><div class="flex items-center justify-between h-14"><a class="flex items-center gap-3 group active" href="index.html" data-status="active" aria-current="page"><img src="assets/logo-trikaya-new.png" alt="" class="w-9 h-9 group-hover:rotate-12 transition-transform duration-500"/><div class="leading-tight"><div class="font-display text-lg sm:text-xl tracking-wider text-gradient-gold">TRIKAYA</div><div class="text-[9px] uppercase tracking-[0.3em] text-muted-foreground">MUN 2026</div></div></a><nav class="hidden md:flex items-center gap-8"><a href="index.html" class="text-sm text-foreground/80 hover:text-gold transition-colors relative group">Home<span class="absolute left-0 -bottom-1 h-px w-0 bg-gold transition-all duration-300 group-hover:w-full"></span></a><a href="venue.html" class="text-sm text-foreground/80 hover:text-gold transition-colors relative group">Venue<span class="absolute left-0 -bottom-1 h-px w-0 bg-gold transition-all duration-300 group-hover:w-full"></span></a><a href="index.html#vision" class="text-sm text-foreground/80 hover:text-gold transition-colors relative group">Vision<span class="absolute left-0 -bottom-1 h-px w-0 bg-gold transition-all duration-300 group-hover:w-full"></span></a><a href="index.html#committees" class="text-sm text-foreground/80 hover:text-gold transition-colors relative group">Committees<span class="absolute left-0 -bottom-1 h-px w-0 bg-gold transition-all duration-300 group-hover:w-full"></span></a><a href="index.html#team" class="text-sm text-foreground/80 hover:text-gold transition-colors relative group">Team<span class="absolute left-0 -bottom-1 h-px w-0 bg-gold transition-all duration-300 group-hover:w-full"></span></a><a href="index.html#contact" class="text-sm text-foreground/80 hover:text-gold transition-colors relative group">Contact<span class="absolute left-0 -bottom-1 h-px w-0 bg-gold transition-all duration-300 group-hover:w-full"></span></a></nav><a href="index.html#register" class="hidden md:inline-flex items-center px-5 py-2 rounded-full text-sm font-medium bg-gradient-to-r from-gold to-gold-glow text-navy-deep hover:shadow-gold transition-all">Register</a><button class="md:hidden text-foreground" aria-label="Menu"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18"></path><path d="M3 12h18"></path><path d="M3 18h18"></path></svg></button></div></div></header><!--$--><main class="overflow-x-hidden"><section class="relative min-h-screen flex items-center justify-center pt-24 pb-16 px-4"><div class="absolute inset-0 z-0" style="background-image:url(assets/hero-bg-rjqz_psa.jpg);background-size:cover;background-position:center"></div><div class="absolute inset-0 bg-gradient-to-b from-navy-deep/65 via-navy-deep/55 to-navy-deep z-[1]"></div><div class="absolute inset-0 bg-stars opacity-60 z-[1]"></div><canvas class="absolute inset-0 h-full w-full pointer-events-none" aria-hidden="true"></canvas><div class="relative z-10 max-w-5xl mx-auto text-center"><div class="inline-flex items-center gap-2 glass rounded-full px-4 py-1.5 mb-8 animate-fade-up"><span class="w-1.5 h-1.5 rounded-full bg-gold animate-glow-pulse"></span><span class="text-xs uppercase tracking-[0.3em] text-gold">Maiden Edition · 24–25 October 2026</span></div><h1 class="text-6xl sm:text-8xl lg:text-[10rem] font-display font-bold tracking-[0.04em] mb-6 animate-fade-up text-neon animate-neon-flicker">TRIKAYA</h1><div class="text-xs sm:text-sm tracking-[0.7em] text-foreground/70 -mt-2 mb-6 font-display">MODEL · UNITED · NATIONS</div><div class="flex items-center justify-center gap-4 my-6 animate-fade-up" style="animation-delay:120ms"><span class="neon-rule w-16 sm:w-24"></span><p class="text-base sm:text-2xl font-display italic text-gradient-gold tracking-widest">Diplomacy. Beyond. Dimensions.</p><span class="neon-rule w-16 sm:w-24"></span></div><p class="max-w-2xl mx-auto text-muted-foreground mb-6 animate-fade-up" style="animation-delay:300ms">More than a conference — a movement of ideas, voices, and change-makers. Held on United Nations Day.</p><div class="flex flex-wrap items-center justify-center gap-3 mb-8 animate-fade-up" style="animation-delay:450ms"><a href="index.html#register" class="px-8 py-3.5 rounded-full bg-gradient-to-r from-gold to-gold-glow text-navy-deep font-semibold shadow-gold hover:scale-105 transition-transform animate-glow-pulse">Register Now</a><a href="venue.html" class="px-8 py-3.5 rounded-full text-foreground font-semibold transition-all hover:scale-105" style="background:rgba(139,92,246,0.25);border:1px solid rgba(139,92,246,0.6);backdrop-filter:blur(12px);box-shadow:0 0 20px rgba(139,92,246,0.2)">Venue</a><a href="index.html#committees" class="px-8 py-3.5 rounded-full glass text-foreground hover:bg-white/10 transition-colors">Explore Committees</a></div><div class="animate-fade-up" style="animation-delay:600ms"><div class="flex flex-wrap items-center justify-center gap-3 sm:gap-5"><div class="glass-gold rounded-2xl px-5 py-4 sm:px-7 sm:py-5 min-w-[88px] sm:min-w-[110px] text-center"><div class="text-3xl sm:text-5xl font-display font-semibold text-gradient-gold tabular-nums">--</div><div class="text-[10px] sm:text-xs uppercase tracking-[0.25em] text-muted-foreground mt-1">Days</div></div><div class="glass-gold rounded-2xl px-5 py-4 sm:px-7 sm:py-5 min-w-[88px] sm:min-w-[110px] text-center"><div class="text-3xl sm:text-5xl font-display font-semibold text-gradient-gold tabular-nums">--</div><div class="text-[10px] sm:text-xs uppercase tracking-[0.25em] text-muted-foreground mt-1">Hours</div></div><div class="glass-gold rounded-2xl px-5 py-4 sm:px-7 sm:py-5 min-w-[88px] sm:min-w-[110px] text-center"><div class="text-3xl sm:text-5xl font-display font-semibold text-gradient-gold tabular-nums">--</div><div class="text-[10px] sm:text-xs uppercase tracking-[0.25em] text-muted-foreground mt-1">Minutes</div></div><div class="glass-gold rounded-2xl px-5 py-4 sm:px-7 sm:py-5 min-w-[88px] sm:min-w-[110px] text-center"><div class="text-3xl sm:text-5xl font-display font-semibold text-gradient-gold tabular-nums">--</div><div class="text-[10px] sm:text-xs uppercase tracking-[0.25em] text-muted-foreground mt-1">Seconds</div></div></div></div></div><div class="absolute bottom-8 left-1/2 -translate-x-1/2 z-10 text-gold/60 text-xs uppercase tracking-[0.4em] flex flex-col items-center gap-2 animate-float"><span>Scroll</span><div class="w-px h-10 bg-gradient-to-b from-gold to-transparent"></div></div></section><section class="relative py-14 px-4 sm:px-6"><div class="max-w-6xl mx-auto"><div class="glass-gold rounded-3xl p-8 sm:p-14 relative overflow-hidden text-center"><div class="absolute -top-32 -right-32 w-96 h-96 rounded-full bg-gold/15 blur-3xl"></div><div class="absolute -bottom-32 -left-32 w-96 h-96 rounded-full bg-royal/40 blur-3xl"></div><div class="relative"><div class="text-xs uppercase tracking-[0.4em] text-gold mb-4">Section 01 · Dates</div><div class="grid sm:grid-cols-3 gap-6 items-center"><div class="text-7xl sm:text-8xl font-display font-bold text-neon">24<sup class="text-2xl">th</sup></div><div class="flex flex-col items-center"><div class="text-3xl sm:text-4xl font-display text-gradient-gold">&amp;</div><div class="mt-3 text-xs uppercase tracking-[0.4em] text-muted-foreground">October 2026</div><div class="mt-2 text-sm text-gold/90 font-display italic">on United Nations Day</div></div><div class="text-7xl sm:text-8xl font-display font-bold text-neon">25<sup class="text-2xl">th</sup></div></div><div class="neon-rule mt-10 mx-auto max-w-md"></div><p class="max-w-2xl mx-auto text-muted-foreground mt-6 text-sm">Coinciding with the founding of the United Nations — a celebration of diplomacy, cooperation, and global citizenship.</p></div></div></div></section><section id="vision" class="relative py-16 px-4 sm:px-6"><div class="max-w-6xl mx-auto"><div class="text-center mb-8"><div class="text-xs uppercase tracking-[0.4em] text-gold mb-4">Section 02 · Our Vision</div></div><div class="grid lg:grid-cols-12 gap-10 items-start"><div class="lg:col-span-7 space-y-6 text-lg leading-relaxed text-foreground/85"><p>In a world driven by dialogue, collaboration, and innovation,<span class="text-gold"> TRIKAYA MUN transcends boundaries</span> of geography, perspective, and convention.</p><p>Our mission is to create a platform where young leaders engage in meaningful discourse, think critically, speak confidently, and lead responsibly.</p><p class="text-muted-foreground italic">Step in. Speak up. Lead beyond limits.</p></div><div class="lg:col-span-5 space-y-4"><div class="glass rounded-2xl p-6 flex gap-5 hover:translate-x-1 transition-transform"><div class="text-3xl font-display text-gold/80">01</div><div><div class="font-display text-xl">Discourse</div><div class="text-sm text-muted-foreground">Substantive debate over rhetoric.</div></div></div><div class="glass rounded-2xl p-6 flex gap-5 hover:translate-x-1 transition-transform"><div class="text-3xl font-display text-gold/80">02</div><div><div class="font-display text-xl">Leadership</div><div class="text-sm text-muted-foreground">Confidence forged on the floor.</div></div></div><div class="glass rounded-2xl p-6 flex gap-5 hover:translate-x-1 transition-transform"><div class="text-3xl font-display text-gold/80">03</div><div><div class="font-display text-xl">Impact</div><div class="text-sm text-muted-foreground">Ideas that travel beyond the room.</div></div></div></div></div><div class="grid grid-cols-2 md:grid-cols-3 gap-8 mt-10"><div class="text-center"><div class="text-4xl sm:text-5xl font-display text-gradient-gold tabular-nums">0</div><div class="text-xs uppercase tracking-[0.3em] text-muted-foreground mt-2">Committees</div></div><div class="text-center"><div class="text-4xl sm:text-5xl font-display text-gradient-gold tabular-nums">0</div><div class="text-xs uppercase tracking-[0.3em] text-muted-foreground mt-2">Conference Days</div></div><div class="text-center"><div class="text-4xl sm:text-5xl font-display text-gradient-gold tabular-nums">0<!-- -->%</div><div class="text-xs uppercase tracking-[0.3em] text-muted-foreground mt-2">Diplomatic Spirit</div></div></div></div></section><section class="relative py-16 px-4 overflow-hidden"><div class="absolute inset-0 bg-grid opacity-40"></div><div class="absolute inset-0 bg-gradient-to-b from-transparent via-navy-deep/60 to-transparent"></div><div class="relative max-w-5xl mx-auto text-center"><div class="text-xs uppercase tracking-[0.4em] text-gold mb-6">Section 03 · Our Motto</div><h2 class="text-6xl sm:text-8xl font-display leading-[0.95] mb-8 tracking-wide"><span class="text-neon">DIPLOMACY</span><span class="block italic text-gradient-gold my-2">Beyond</span><span class="text-neon">DIMENSIONS.</span></h2><p class="max-w-2xl mx-auto text-lg text-muted-foreground">At TRIKAYA MUN, diplomacy becomes leadership, collaboration, critical thinking, and the limitless belief that today&#x27;s youth can create impact far beyond committee rooms.</p><div class="mt-8 flex flex-col items-center justify-center"><span class="text-2xl sm:text-6xl font-display font-bold tracking-[0.03em] sm:tracking-[0.1em] text-gradient-gold leading-tight break-words max-w-full px-3" style="text-shadow: 0 0 20px rgba(210,110,245,0.6), 0 0 40px rgba(210,110,245,0.3), 0 0 60px rgba(139,92,246,0.2); filter: drop-shadow(0 0 15px rgba(210,110,245,0.4));">#GoGreenWithTrikaya</span><div class="mt-6 space-y-2 text-sm sm:text-base text-muted-foreground leading-relaxed"><p>This initiative was started for a better and sustainable world!!!</p><p>Our aim is to plant 500+ trees and plants</p><p class="text-gold font-semibold">Be the part of change</p></div></div></div></section><section class="relative py-14 px-4 sm:px-6"><div class="max-w-6xl mx-auto text-center"><div class="text-xs uppercase tracking-[0.4em] text-gold mb-4">Section 04</div><h2 class="text-4xl sm:text-5xl font-display text-neon mb-3">Recognized By</h2><p class="text-sm text-muted-foreground mb-7">Aligned with national &amp; global initiatives.</p><div class="grid grid-cols-1 sm:grid-cols-2 gap-6" style="max-width:900px;margin-left:auto;margin-right:auto;width:100%;">
-<!-- Logo 1: University of Delhi -->
-<div class="recognized-logo-card-h"><div class="recognized-logo-wrap"><img class="recognized-logo-img-h" src="assets/recognized/du-final.png" alt="University of Delhi" loading="lazy"/></div><div class="recognized-logo-text"><span class="recognized-logo-title">University of Delhi</span><span class="recognized-logo-desc">A leading Indian university known for academic excellence, innovation, and holistic education.</span></div></div>
-<!-- Logo 2: UN SDGs -->
-<div class="recognized-logo-card-h"><div class="recognized-logo-wrap"><img class="recognized-logo-img-h" src="assets/recognized/sdg-final.png" alt="UN Sustainable Development Goals" loading="lazy"/></div><div class="recognized-logo-text"><span class="recognized-logo-title">UN Sustainable Development Goals (SDGs)</span><span class="recognized-logo-desc">A global framework of 17 goals promoting sustainable, inclusive, and equitable development by 2030.</span></div></div>
-<!-- Logo 3: BRICS Think Tank Council -->
-<div class="recognized-logo-card-h"><div class="recognized-logo-wrap"><img class="recognized-logo-img-h" src="assets/recognized/brics-final.png" alt="BRICS Think Tank Council" loading="lazy"/></div><div class="recognized-logo-text"><span class="recognized-logo-title">BRICS Think Tank Council</span><span class="recognized-logo-desc">A collaborative platform connecting BRICS research institutions to shape policy and strategic cooperation.</span></div></div>
-<!-- Logo 4: Viksit Bharat Abhiyan -->
-<div class="recognized-logo-card-h"><div class="recognized-logo-wrap"><img class="recognized-logo-img-h" src="assets/recognized/viksit-final.png" alt="Viksit Bharat Abhiyan" loading="lazy"/></div><div class="recognized-logo-text"><span class="recognized-logo-title">Viksit Bharat Abhiyan</span><span class="recognized-logo-desc">A national initiative focused on building a developed, inclusive, and future-ready India by 2047.</span></div></div>
-</div></div></section><section class="relative py-14 px-4 sm:px-6"><div class="max-w-6xl mx-auto"><div class="text-center mb-8"><div class="text-xs uppercase tracking-[0.4em] text-gold mb-4">Section 05 · In Collaboration With</div><h2 class="text-5xl sm:text-6xl font-display text-neon">Our Partners</h2></div><div class="grid md:grid-cols-2 gap-6"><div class="group glass rounded-3xl p-8 hover:shadow-glow transition-all duration-500 relative overflow-hidden"><div class="absolute -top-24 -right-24 w-64 h-64 rounded-full bg-gold/15 blur-3xl group-hover:bg-gold/30 transition"></div><div class="text-xs uppercase tracking-[0.3em] text-gold/80 mb-3">Building Minds · Bridging Future</div><h3 class="text-3xl font-display mb-4 text-neon">Vigilante Foundation</h3><p class="text-muted-foreground leading-relaxed">A youth-led organization empowering students through leadership, public speaking, Model UNs and academic initiatives that turn dialogue into action.</p></div><div class="group glass rounded-3xl p-8 hover:shadow-glow transition-all duration-500 relative overflow-hidden"><div class="absolute -top-24 -right-24 w-64 h-64 rounded-full bg-gold/15 blur-3xl group-hover:bg-gold/30 transition"></div><div class="text-xs uppercase tracking-[0.3em] text-gold/80 mb-3">Where Ideas Become Action</div><h3 class="text-3xl font-display mb-4 text-neon">Elion Organization</h3><p class="text-muted-foreground leading-relaxed">Committed to excellence and community engagement — fostering creativity, teamwork and global awareness to shape responsible leaders for an ever-evolving world.</p></div></div></div></section><section id="team" class="relative py-12 px-4 sm:px-6"><div class="max-w-6xl mx-auto space-y-8"><div class="grid lg:grid-cols-12 gap-6 items-center"><div class="lg:col-span-4 relative"><div class="relative aspect-[3/4] max-w-[320px] mx-auto lg:mx-0 rounded-2xl overflow-hidden glass-gold p-1.5"><img src="__l5e/assets-v1/14a8e048-aac2-4ef9-9534-f3b59f75fafe/founder.png" alt="Vansh Gupta — Founder" loading="lazy" width="1024" height="1024" class="w-full h-full object-cover rounded-xl"/></div><div class="absolute -bottom-3 -right-3 glass-gold rounded-xl px-4 py-2 text-sm"><div class="text-[10px] uppercase tracking-[0.3em] text-gold">Founder</div><div class="font-display text-base">Vansh Gupta</div></div></div><div class="lg:col-span-8"><div class="text-xs uppercase tracking-[0.4em] text-gold mb-4">Section 06 · Founder&#x27;s Vision</div><h3 class="text-4xl font-display mb-5 text-neon">Vansh Gupta</h3><blockquote class="text-lg sm:text-xl font-display italic leading-relaxed mb-5 border-l-2 border-gold/60 pl-5">&quot;TRIKAYA is not just about discussion — it is about creating impact that extends far beyond these sessions.&quot;</blockquote><p class="text-muted-foreground leading-relaxed">It gives me immense pride to welcome you to the maiden edition of TRIKAYA MUN. What you are stepping into is not merely a conference, but a platform built to challenge perspectives, inspire dialogue, and shape individuals into confident global thinkers.</p></div></div><div class="grid lg:grid-cols-12 gap-6 items-center"><div class="lg:col-span-8 order-2 lg:order-1"><div class="text-xs uppercase tracking-[0.4em] text-gold mb-4">Section 07 · Co-Founder&#x27;s Vision</div><h3 class="text-4xl font-display mb-5 text-neon">Anvi Aggarwal</h3><blockquote class="text-lg sm:text-xl font-display italic leading-relaxed mb-5 border-l-2 border-gold/60 pl-5">&quot;Help shape a future defined by dialogue and impact.&quot;</blockquote><p class="text-muted-foreground leading-relaxed">TRIKAYA is founded on the idea that diplomacy is not merely an exchange of words, but a process of understanding perspectives and building meaningful connections. Through this inaugural conference, we aim to provide an environment that encourages intellectual curiosity, confidence and collaborative thinking.</p></div><div class="lg:col-span-4 order-1 lg:order-2 relative"><div class="relative aspect-[3/4] max-w-[320px] mx-auto lg:mx-0 lg:ml-auto rounded-2xl overflow-hidden glass-gold p-1.5"><img src="__l5e/assets-v1/38389880-6dd8-4a83-9020-e9b0be848c8b/cofounder.png" alt="Anvi Aggarwal — Co-Founder" loading="lazy" width="1024" height="1024" class="w-full h-full object-cover rounded-xl"/></div><div class="absolute -bottom-3 -left-3 glass-gold rounded-xl px-4 py-2 text-sm"><div class="text-[10px] uppercase tracking-[0.3em] text-gold">Co-Founder</div><div class="font-display text-base">Anvi Aggarwal</div></div></div></div></div></section><section id="committees" class="relative py-16 px-4 sm:px-6"><div class="max-w-7xl mx-auto"><div class="text-center mb-8"><div class="text-xs uppercase tracking-[0.4em] text-gold mb-4">Section 08</div><h2 class="text-5xl sm:text-6xl font-display text-gradient-royal mb-4">The Committees</h2><p class="text-muted-foreground max-w-2xl mx-auto">Seven floors. Seven worlds. Choose where your voice will resonate.</p></div><div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
 
-<div class="flip-card committee-card-modal relative h-[22rem]" data-committee="unhrc" style="animation-delay:0ms"><div class="flip-inner relative w-full h-full"><div class="flip-face glass rounded-2xl overflow-hidden"><div class="committee-front-content"><h3 class="committee-name-only text-neon">UNHRC</h3><span class="committee-fullform">United Nations Human Rights Council</span></div></div><div class="flip-face flip-back glass-gold rounded-2xl"><div class="committee-agenda-back"><div class="agenda-label">Agenda</div><p class="agenda-text">Deliberation upon Strengthening the International Mechanisms to Combat Systemic Discrimination and Ensure Accountability for Human Rights Violations, with Special Emphasis on the Rohingya Crisis in Myanmar</p><button class="view-details-btn-back" onclick="event.stopPropagation(); openCommitteeModal(this.closest('[data-committee]').getAttribute('data-committee'))">View Details</button></div></div></div></div>
-
-<div class="flip-card committee-card-modal relative h-[22rem]" data-committee="unga" style="animation-delay:80ms"><div class="flip-inner relative w-full h-full"><div class="flip-face glass rounded-2xl overflow-hidden"><div class="committee-front-content"><h3 class="committee-name-only text-neon">UNGA</h3><span class="committee-fullform">United Nations General Assembly</span></div></div><div class="flip-face flip-back glass-gold rounded-2xl"><div class="committee-agenda-back"><div class="agenda-label">Agenda</div><p class="agenda-text">Deliberation on the regulation of Artificial Intelligence in military and surveillance systems, with special emphasis on responsible governance of cyberspace and strengthening global mechanisms against cyber warfare.</p><button class="view-details-btn-back" onclick="event.stopPropagation(); openCommitteeModal(this.closest('[data-committee]').getAttribute('data-committee'))">View Details</button></div></div></div></div>
-
-<div class="flip-card committee-card-modal relative h-[22rem]" data-committee="aippm" style="animation-delay:160ms"><div class="flip-inner relative w-full h-full"><div class="flip-face glass rounded-2xl overflow-hidden"><div class="committee-front-content"><h3 class="committee-name-only text-neon">AIPPM</h3><span class="committee-fullform">All India Political Parties Meet</span></div></div><div class="flip-face flip-back glass-gold rounded-2xl"><div class="committee-agenda-back"><div class="agenda-label">Agenda</div><p class="agenda-text">Deliberation on the Role of UGC in Higher Education Reforms with Special Reference to Budgetary Allocations and NEP 2020</p><button class="view-details-btn-back" onclick="event.stopPropagation(); openCommitteeModal(this.closest('[data-committee]').getAttribute('data-committee'))">View Details</button></div></div></div></div>
-
-<div class="flip-card committee-card-modal relative h-[22rem]" data-committee="ipc" style="animation-delay:240ms"><div class="flip-inner relative w-full h-full"><div class="flip-face glass rounded-2xl overflow-hidden"><div class="committee-front-content"><h3 class="committee-name-only text-neon">IPC</h3><span class="committee-fullform">International Press Corps</span></div></div><div class="flip-face flip-back glass-gold rounded-2xl"><div class="committee-agenda-back"><div class="agenda-label">Agenda</div><p class="agenda-text">Journalists , Caricaturist and Photographers Committee.</p><button class="view-details-btn-back" onclick="event.stopPropagation(); openCommitteeModal(this.closest('[data-committee]').getAttribute('data-committee'))">View Details</button></div></div></div></div>
-
-<div class="flip-card committee-card-modal relative h-[22rem]" data-committee="ipl" style="animation-delay:320ms"><div class="flip-inner relative w-full h-full"><div class="flip-face glass rounded-2xl overflow-hidden"><div class="committee-front-content"><h3 class="committee-name-only text-neon">IPL</h3><span class="committee-fullform">Indian Premier League — Mega Auction (only Day 2)</span></div></div><div class="flip-face flip-back glass-gold rounded-2xl"><div class="committee-agenda-back"><div class="agenda-label">Agenda</div><p class="agenda-text">Mega Auction 2026.</p><button class="view-details-btn-back" onclick="event.stopPropagation(); openCommitteeModal(this.closest('[data-committee]').getAttribute('data-committee'))">View Details</button></div></div></div></div>
-
-<div class="flip-card committee-card-modal relative h-[22rem]" data-committee="mahabharat" style="animation-delay:480ms"><div class="flip-inner relative w-full h-full"><div class="flip-face glass rounded-2xl overflow-hidden"><div class="committee-front-content"><h3 class="committee-name-only text-neon">Mahabharat</h3><span class="committee-fullform">Mahabharat</span></div></div><div class="flip-face flip-back glass-gold rounded-2xl"><div class="committee-agenda-back"><div class="agenda-label">Agenda</div><p class="agenda-text">Yudh Ka Aadhaar: Dharm Ya Rajya Ki Lalasa?</p><button class="view-details-btn-back" onclick="event.stopPropagation(); openCommitteeModal(this.closest('[data-committee]').getAttribute('data-committee'))">View Details</button></div></div></div></div>
-
-<div class="flip-card committee-card-modal relative h-[22rem]" data-committee="harrypotter" style="animation-delay:560ms"><div class="flip-inner relative w-full h-full"><div class="flip-face glass rounded-2xl overflow-hidden"><div class="committee-front-content"><h3 class="committee-name-only text-neon">Harry Potter</h3><span class="committee-fullform">The Harry Potter Committee</span></div></div><div class="flip-face flip-back glass-gold rounded-2xl"><div class="committee-agenda-back"><div class="agenda-label">Agenda</div><p class="agenda-text">Classified.</p><button class="view-details-btn-back" onclick="event.stopPropagation(); openCommitteeModal(this.closest('[data-committee]').getAttribute('data-committee'))">View Details</button></div></div></div></div>
-
-</div></div></div></section><section class="eligibility-section relative px-4 sm:px-6"><div class="eligibility-box"><span class="eligibility-icon">🎓</span><div class="text-xs uppercase tracking-[0.4em] text-gold mb-4">Eligibility</div><h2 class="text-neon mb-5">Who Can Participate?</h2><p>Open to students from <strong style="color:rgba(210,110,245,0.95)">Class 6th through College 3rd Year</strong> — young leaders from across the academic spectrum are welcome to step up and make their voices heard.</p></div></section><section class="relative py-14 px-4 sm:px-6"><div class="max-w-6xl mx-auto"><div class="glass-gold rounded-3xl p-8 sm:p-14 relative overflow-hidden text-center"><div class="absolute -top-32 -right-32 w-96 h-96 rounded-full bg-gold/15 blur-3xl"></div><div class="absolute -bottom-32 -left-32 w-96 h-96 rounded-full bg-royal/40 blur-3xl"></div><div class="relative z-10"><div class="text-xs uppercase tracking-[0.4em] text-gold mb-6">Prize Pool</div><div class="flex items-center justify-center gap-0 mb-10"><span class="text-7xl sm:text-8xl font-display font-bold text-gold">&#8377;</span><div class="prize-pool-number text-7xl sm:text-8xl font-display text-gradient-gold font-bold tabular-nums" data-target="100000" style="line-height: 1;">0</div><span class="text-6xl sm:text-7xl font-display font-bold text-gold ml-2">+</span></div><div class="neon-rule mt-8 mx-auto max-w-md"></div><p class="max-w-2xl mx-auto text-muted-foreground mt-6 text-sm">Rewards for excellence, innovation, and outstanding performance across all committees.</p></div></div></div></section><section class="relative py-14 px-4 sm:px-6"><div class="max-w-6xl mx-auto text-center"><div class="mb-8"><div class="text-xs uppercase tracking-[0.4em] text-purple-glow mb-4" style="letter-spacing:0.4em;">Special Highlight</div><p class="text-2xl sm:text-3xl font-display text-purple-glow mb-3" style="text-shadow:0 0 20px rgba(210,110,245,0.8),0 0 40px rgba(210,110,245,0.4); font-weight:700;">Exclusive Garba Night</p><p class="text-base text-gold mb-4" style="letter-spacing:0.05em;">Dance the night away on Day Two</p><div class="neon-rule mx-auto max-w-xs"></div></div></div></section>
-
-<section class="relative py-16 px-4 sm:px-6"><div class="max-w-7xl mx-auto"><div class="text-center mb-8"><div class="text-xs uppercase tracking-[0.4em] text-gold mb-4">Section 09</div><h2 class="text-5xl sm:text-6xl font-display text-neon">Perks of Registering</h2><p class="text-muted-foreground mt-3 italic font-display">Diplomacy. Beyond Dimensions.</p></div><div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4"><div class="md:col-span-2 rounded-2xl p-5 transition-all duration-300 hover:-translate-y-1 glass-gold shadow-glow scale-[1.02] border border-purple-glow featured-card" style="animation-delay:0ms;box-shadow:0 0 40px rgba(210,110,245,0.4),0 8px 32px rgba(0,0,0,0.3)"><div class="w-10 h-10 rounded-full flex items-center justify-center font-display mb-3 bg-gradient-to-br from-gold to-gold-glow text-navy-deep">★</div><div class="font-medium text-base leading-snug">Custom ID Cards for First 100</div><div class="mt-2 text-[10px] uppercase tracking-[0.2em] text-gold font-semibold">Limited — First 100 Only</div></div><div class="rounded-2xl p-5 transition-all duration-300 hover:-translate-y-1 glass hover:glass-gold" style="animation-delay:0ms"><div class="w-10 h-10 rounded-full flex items-center justify-center font-display mb-3 glass-gold text-gold">01</div><div class="font-medium text-sm leading-snug">Premium Delegate Kits</div></div><div class="rounded-2xl p-5 transition-all duration-300 hover:-translate-y-1 glass hover:glass-gold" style="animation-delay:50ms"><div class="w-10 h-10 rounded-full flex items-center justify-center font-display mb-3 glass-gold text-gold">02</div><div class="font-medium text-sm leading-snug">Exclusive Cash Prizes</div></div><div class="rounded-2xl p-5 transition-all duration-300 hover:-translate-y-1 glass hover:glass-gold" style="animation-delay:100ms"><div class="w-10 h-10 rounded-full flex items-center justify-center font-display mb-3 glass-gold text-gold">03</div><div class="font-medium text-sm leading-snug">Premium Trophies</div></div><div class="rounded-2xl p-5 transition-all duration-300 hover:-translate-y-1 glass hover:glass-gold" style="animation-delay:150ms"><div class="w-10 h-10 rounded-full flex items-center justify-center font-display mb-3 glass-gold text-gold">04</div><div class="font-medium text-sm leading-snug">Esteemed &amp; Experienced Executive Board</div></div><div class="rounded-2xl p-5 transition-all duration-300 hover:-translate-y-1 glass hover:glass-gold" style="animation-delay:200ms"><div class="w-10 h-10 rounded-full flex items-center justify-center font-display mb-3 glass-gold text-gold">05</div><div class="font-medium text-sm leading-snug">Free Polaroid Keepsake</div></div><div class="rounded-2xl p-5 transition-all duration-300 hover:-translate-y-1 glass hover:glass-gold" style="animation-delay:250ms"><div class="w-10 h-10 rounded-full flex items-center justify-center font-display mb-3 glass-gold text-gold">06</div><div class="font-medium text-sm leading-snug">High-Energy Socials &amp; Networking</div></div><div class="rounded-2xl p-5 transition-all duration-300 hover:-translate-y-1 glass hover:glass-gold" style="animation-delay:300ms"><div class="w-10 h-10 rounded-full flex items-center justify-center font-display mb-3 glass-gold text-gold">07</div><div class="font-medium text-sm leading-snug">Participation Certificates with High-Profile Signatories</div></div><div class="rounded-2xl p-5 transition-all duration-300 hover:-translate-y-1 glass hover:glass-gold" style="animation-delay:350ms"><div class="w-10 h-10 rounded-full flex items-center justify-center font-display mb-3 glass-gold text-gold">08</div><div class="font-medium text-sm leading-snug">Personalised One-on-One Training Sessions</div></div><div class="rounded-2xl p-5 transition-all duration-300 hover:-translate-y-1 glass hover:glass-gold" style="animation-delay:400ms"><div class="w-10 h-10 rounded-full flex items-center justify-center font-display mb-3 glass-gold text-gold">09</div><div class="font-medium text-sm leading-snug">Special Souvenir</div></div><div class="rounded-2xl p-5 transition-all duration-300 hover:-translate-y-1 glass hover:glass-gold" style="animation-delay:450ms"><div class="w-10 h-10 rounded-full flex items-center justify-center font-display mb-3 glass-gold text-gold">10</div><div class="font-medium text-sm leading-snug">Social Media Recognition</div></div></div></div></section><section class="relative py-16 px-4 sm:px-6 overflow-hidden"><div class="absolute inset-0 bg-grid opacity-30"></div><div class="absolute inset-0 bg-gradient-to-b from-transparent via-navy-deep/50 to-transparent"></div><div class="relative max-w-6xl mx-auto"><div class="text-center mb-8"><div class="text-xs uppercase tracking-[0.4em] text-gold mb-4">Special Events</div><h2 class="text-5xl sm:text-6xl font-display text-neon">Experience the Nights</h2><p class="text-muted-foreground mt-3 italic font-display">Beyond the committee room.</p></div><div class="grid md:grid-cols-2 gap-12 sm:gap-16 max-w-5xl mx-auto"><div class="text-center"><div class="text-4xl sm:text-6xl font-display font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#b78bff] via-[#e879f9] to-[#a855f7] mb-5" style="text-shadow:0 0 18px rgba(210,110,245,0.75),0 0 38px rgba(168,85,247,0.45);">DAY 1</div><h3 class="text-3xl sm:text-4xl font-display text-gradient-gold mb-3">The 2020 Era</h3><div class="neon-rule mx-auto w-24 mb-5"></div><p class="text-lg text-foreground/85 font-display italic">The OG Bollywood Night</p></div><div class="text-center"><div class="text-4xl sm:text-6xl font-display font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#b78bff] via-[#e879f9] to-[#a855f7] mb-5" style="text-shadow:0 0 18px rgba(210,110,245,0.75),0 0 38px rgba(168,85,247,0.45);">DAY 2</div><h3 class="text-3xl sm:text-4xl font-display text-gradient-gold mb-3">Garba</h3><div class="neon-rule mx-auto w-24 mb-5"></div><p class="text-lg text-foreground/85 font-display italic">The Festive Spirit</p></div></div></div></section><section class="relative py-16 px-4 sm:px-6"><div class="max-w-6xl mx-auto"><div class="text-center mb-8"><div class="text-xs uppercase tracking-[0.4em] text-gold mb-4">Section 10</div><h2 class="text-5xl sm:text-6xl font-display text-neon">Fee Structure</h2><p class="text-muted-foreground mt-3">Allotment on first-come, first-served basis · non-refundable.</p></div><div class="grid md:grid-cols-3 gap-5"><div class="relative glass rounded-3xl p-8 text-center overflow-hidden "><div class="absolute -top-20 -right-20 w-48 h-48 rounded-full bg-gold/10 blur-3xl"></div><div class="relative"><div class="text-[10px] uppercase tracking-[0.3em] text-gold mb-3">Delegate Fee</div><div class="text-5xl font-display font-bold text-gradient-gold mb-4">₹2,100<span class="text-sm text-muted-foreground font-body ml-1">/-</span></div><div class="neon-rule mx-auto w-20 mb-4"></div><div class="text-sm text-foreground/80 mb-2" style="letter-spacing:0.05em">Harry Potter</div><div class="text-sm text-foreground/80">UNHRC · UNGA · AIPPM · MAHABHARAT</div><a href="index.html#register" class="mt-6 inline-flex px-6 py-2.5 rounded-full bg-gradient-to-r from-gold to-gold-glow text-navy-deep font-semibold hover:scale-105 transition-transform">Register</a></div></div><div class="relative glass rounded-3xl p-8 text-center overflow-hidden glass-gold scale-[1.03] shadow-glow"><div class="absolute -top-20 -right-20 w-48 h-48 rounded-full bg-gold/10 blur-3xl"></div><div class="relative"><div class="text-[10px] uppercase tracking-[0.3em] text-gold mb-3">Delegate Fee</div><div class="text-5xl font-display font-bold text-gradient-gold mb-4">₹2,100<span class="text-sm text-muted-foreground font-body ml-1">/-</span></div><div class="neon-rule mx-auto w-20 mb-4"></div><div class="text-sm text-foreground/80">IPL (Only Day 2) — Mega Auction 2026</div><a href="index.html#register" class="mt-6 inline-flex px-6 py-2.5 rounded-full bg-gradient-to-r from-gold to-gold-glow text-navy-deep font-semibold hover:scale-105 transition-transform">Register</a></div></div><div class="relative glass rounded-3xl p-8 text-center overflow-hidden "><div class="absolute -top-20 -right-20 w-48 h-48 rounded-full bg-gold/10 blur-3xl"></div><div class="relative"><div class="text-[10px] uppercase tracking-[0.3em] text-gold mb-3">Delegate Fee</div><div class="text-5xl font-display font-bold text-gradient-gold mb-4">₹2,000<span class="text-sm text-muted-foreground font-body ml-1">/-</span></div><div class="neon-rule mx-auto w-20 mb-4"></div><div class="text-sm text-foreground/80">IPC — International Press Corps</div><a href="index.html#register" class="mt-6 inline-flex px-6 py-2.5 rounded-full bg-gradient-to-r from-gold to-gold-glow text-navy-deep font-semibold hover:scale-105 transition-transform">Register</a></div></div></div><p class="text-xs text-muted-foreground text-center mt-8 max-w-2xl mx-auto">Portfolios are allotted within one week of form submission, based on delegate experience. Once submitted, the delegate fee shall be non-refundable.</p><div class="important-note-box"><div class="important-note-icon">ℹ️</div><div><div class="important-note-title">Important Note</div><div class="important-note-text">Portfolio will be allotted within one week of form submission. All details submitted by the delegate must be accurate and confirmed. The organizing team will not be responsible for incorrect information provided by the delegate.</div></div></div></div></section><section id="register" class="relative py-16 px-4 sm:px-6"><div class="max-w-6xl mx-auto"><div class="text-center mb-8"><div class="text-xs uppercase tracking-[0.4em] text-gold mb-4">Section 11</div><h2 class="text-5xl sm:text-6xl font-display text-neon">Application Forms</h2><div class="brochure-btn-wrap mt-6"><a href="https://drive.google.com/file/d/18BoQviqBUpwwfJm55E8P1SJ0AfpLVWRl/view?usp=drivesdk" target="_blank" rel="noreferrer noopener" id="brochure-download-btn" class="brochure-btn"><!-- TO UPDATE: Change BROCHURE_LINK_HERE to the actual brochure URL in both this line and the card below --><svg viewBox="0 0 24 24" fill="none" stroke-width="2" aria-hidden="true"><path d="M12 16l-4-4h3V4h2v8h3l-4 4z"/><path d="M4 20h16" stroke-linecap="round"/></svg>Download Brochure</a></div></div><div class="grid grid-cols-2 md:grid-cols-3 gap-4"><a href="https://forms.gle/QDkS2C1qpF2gxE149" target="_blank" rel="noreferrer" class="group relative overflow-hidden glass rounded-2xl p-6 flex items-center gap-4 hover:scale-[1.02] transition-transform"><div class="absolute inset-0 bg-gradient-to-br from-gold/0 via-gold/0 to-gold/25 opacity-0 group-hover:opacity-100 transition-opacity"></div><div class="relative w-12 h-12 rounded-xl glass-gold flex items-center justify-center text-xl text-gold">✍</div><div class="relative flex-1"><div class="font-medium">Delegate Registration</div><div class="text-xs text-muted-foreground">Open →</div></div></a><a href="https://forms.gle/s1444mzwMcpc8cCt8" target="_blank" rel="noreferrer" class="group relative overflow-hidden glass rounded-2xl p-6 flex items-center gap-4 hover:scale-[1.02] transition-transform"><div class="absolute inset-0 bg-gradient-to-br from-gold/0 via-gold/0 to-gold/25 opacity-0 group-hover:opacity-100 transition-opacity"></div><div class="relative w-12 h-12 rounded-xl glass-gold flex items-center justify-center text-xl text-gold">✦</div><div class="relative flex-1"><div class="font-medium">IPL Registration</div><div class="text-xs text-muted-foreground">Open →</div></div></a><a href="https://docs.google.com/spreadsheets/d/1bq_8aWnXOlfz84d_fFsVXcyZl83zTbVMy1SaA7z2uTk/edit?usp=drivesdk" target="_blank" rel="noopener noreferrer" class="group relative overflow-hidden glass rounded-2xl p-6 flex items-center gap-4 hover:scale-[1.02] transition-transform"><div class="absolute inset-0 bg-gradient-to-br from-gold/0 via-gold/0 to-gold/25 opacity-0 group-hover:opacity-100 transition-opacity"></div><div class="relative w-12 h-12 rounded-xl glass-gold flex items-center justify-center text-xl text-gold">◎</div><div class="relative flex-1"><div class="font-medium">Public Eye Matrix</div><div class="text-xs text-muted-foreground">Open →</div></div></a><a href="https://instagram.com/trikaya_mun" target="_blank" rel="noreferrer" class="group relative overflow-hidden glass rounded-2xl p-6 flex items-center gap-4 hover:scale-[1.02] transition-transform"><div class="absolute inset-0 bg-gradient-to-br from-gold/0 via-gold/0 to-gold/25 opacity-0 group-hover:opacity-100 transition-opacity"></div><div class="relative w-12 h-12 rounded-xl glass-gold flex items-center justify-center text-xl text-gold">❍</div><div class="relative flex-1"><div class="font-medium">Instagram · @trikaya_mun</div><div class="text-xs text-muted-foreground">Open →</div></div></a><a href="https://drive.google.com/file/d/18BoQviqBUpwwfJm55E8P1SJ0AfpLVWRl/view?usp=drivesdk" target="_blank" rel="noreferrer noopener" class="group relative overflow-hidden glass rounded-2xl p-6 flex items-center gap-4 hover:scale-[1.02] transition-transform" id="brochure-download-link"><div class="absolute inset-0 bg-gradient-to-br from-gold/0 via-gold/0 to-gold/25 opacity-0 group-hover:opacity-100 transition-opacity"></div><div class="relative w-12 h-12 rounded-xl glass-gold flex items-center justify-center text-xl text-gold">⬇</div><div class="relative flex-1"><div class="font-medium">Download Brochure</div><div class="text-xs text-muted-foreground">Open →</div></div></a><a href="https://docs.google.com/forms/d/1fTif12BZj6L5HfD26ZRRZXjfKyGy9rN_M4kEzEcBcvE/viewform" target="_blank" rel="noopener noreferrer" class="group relative overflow-hidden glass rounded-2xl p-6 flex items-center gap-4 hover:scale-[1.02] transition-transform"><div class="absolute inset-0 bg-gradient-to-br from-gold/0 via-gold/0 to-gold/25 opacity-0 group-hover:opacity-100 transition-opacity"></div><div class="relative w-12 h-12 rounded-xl glass-gold flex items-center justify-center text-sm font-semibold tracking-wide text-gold">ID</div><div class="relative flex-1"><div class="font-medium">Custom ID Cards Form</div><div class="text-xs text-muted-foreground">Open →</div></div></a></div></div></section><section id="contact" class="relative py-16 px-4 sm:px-6"><div class="max-w-6xl mx-auto"><div class="text-center mb-8"><div class="text-xs uppercase tracking-[0.4em] text-gold mb-4">Section 12</div><h2 class="text-5xl sm:text-6xl font-display text-neon">Feedback / Suggestions / Queries</h2><p class="text-muted-foreground mt-3">Share your feedback, suggestions, or general queries — we'd love to hear from you.</p></div><div class="grid lg:grid-cols-5 gap-6"><div class="lg:col-span-2 space-y-4"><a href="https://instagram.com/trikaya_mun" class="block glass rounded-2xl p-5 hover:glass-gold transition-all"><div class="text-[10px] uppercase tracking-[0.3em] text-gold mb-1">Instagram</div><div class="font-display text-lg">@trikaya_mun</div></a><a href="mailto:trikayamun@gmail.com" class="block glass rounded-2xl p-5 hover:glass-gold transition-all"><div class="text-[10px] uppercase tracking-[0.3em] text-gold mb-1">Email</div><div class="font-display text-lg">trikayamun@gmail.com</div></a><a href="tel:+918882493831" class="block glass rounded-2xl p-5 hover:glass-gold transition-all"><div class="text-[10px] uppercase tracking-[0.3em] text-gold mb-1">Founder · Vansh Gupta</div><div class="font-display text-lg">+91 88824 93831</div></a><a href="tel:+919311067925" class="block glass rounded-2xl p-5 hover:glass-gold transition-all"><div class="text-[10px] uppercase tracking-[0.3em] text-gold mb-1">CO · FOUNDER - ANVI AGGARWAL</div><div class="font-display text-lg">+91 93110 67925</div></a><a href="tel:+918810355694" class="block glass rounded-2xl p-5 hover:glass-gold transition-all"><div class="text-[10px] uppercase tracking-[0.3em] text-gold mb-1">COO · Aarav Goel</div><div class="font-display text-lg">+91 88103 55694</div></a></div><form class="lg:col-span-3 glass rounded-3xl p-8 space-y-5 flex flex-col" id="feedback-query-form" novalidate>
-<div class="grid sm:grid-cols-2 gap-5">
-  <div class="feedback-form-field"><label for="fq-name">Full Name</label><input type="text" id="fq-name" name="name" required placeholder="Your full name" autocomplete="name"/></div>
-  <div class="feedback-form-field"><label for="fq-email">Email Address</label><input type="email" id="fq-email" name="email" required placeholder="your@email.com" autocomplete="email"/></div>
-</div>
-<div class="grid sm:grid-cols-2 gap-5">
-  <div class="feedback-form-field"><label for="fq-phone">Phone Number <span style="opacity:0.5;font-size:0.8em">(Optional)</span></label><input type="tel" id="fq-phone" name="phone" placeholder="+91 98765 43210" autocomplete="tel"/></div>
-  <div class="feedback-form-field"><label for="fq-subject">Subject</label><input type="text" id="fq-subject" name="subject" required placeholder="Feedback / Suggestion / Query"/></div>
-</div>
-<div class="feedback-form-field"><label for="fq-message">Message</label><textarea id="fq-message" name="message" rows="4" required placeholder="Share your feedback, suggestion, or ask us anything..." style="resize:none"></textarea></div>
-<button type="submit" class="w-full sm:w-auto px-8 py-3 rounded-full bg-gradient-to-r from-gold to-gold-glow text-navy-deep font-semibold hover:scale-[1.02] transition-transform mt-auto" id="fq-submit-btn">Send Message</button>
-<div id="fq-status" style="display:none;padding:0.75rem 1rem;border-radius:10px;font-size:0.9rem;margin-top:0.5rem"></div>
-</form>
-<script>
-(function(){
-  var form = document.getElementById('feedback-query-form');
-  if(!form) return;
-  form.addEventListener('submit', function(e){
-    e.preventDefault();
-    var nameEl = document.getElementById('fq-name');
-    var emailEl = document.getElementById('fq-email');
-    var phoneEl = document.getElementById('fq-phone');
-    var subjectEl = document.getElementById('fq-subject');
-    var msgEl = document.getElementById('fq-message');
-    var st = document.getElementById('fq-status');
-    var errs = [];
-    if(!nameEl.value.trim() || nameEl.value.trim().length < 2) errs.push('Please enter your full name.');
-    if(!emailEl.value.trim() || !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(emailEl.value.trim())) errs.push('Please enter a valid email address.');
-    if(!subjectEl.value.trim()) errs.push('Please enter a subject.');
-    if(!msgEl.value.trim() || msgEl.value.trim().length < 5) errs.push('Please enter your message.');
-    if(errs.length){
-      st.style.display='block';
-      st.style.background='rgba(200,60,60,0.15)';
-      st.style.border='1px solid rgba(200,60,60,0.4)';
-      st.style.color='rgba(255,150,150,1)';
-      st.innerHTML=errs.join('<br>');
-      return false;
+    /* Horizontal Recognized By cards */
+    .recognized-logo-card-h {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 20px;
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(210, 170, 80, 0.15);
+      border-radius: 16px;
+      padding: 1.25rem 1.5rem;
+      transition: all 0.3s ease;
     }
-    st.style.display='none';
-    var name = nameEl.value.trim();
-    var email = emailEl.value.trim();
-    var phone = phoneEl.value.trim() || 'Not provided';
-    var subject = subjectEl.value.trim();
-    var message = msgEl.value.trim();
-    var mailSubject = encodeURIComponent('Feedback - ' + subject);
-    var mailBody = encodeURIComponent(
-      'New Feedback Submission\n\n' +
-      'Full Name:\n' + name + '\n\n' +
-      'Email:\n' + email + '\n\n' +
-      'Phone Number:\n' + phone + '\n\n' +
-      'Subject:\n' + subject + '\n\n' +
-      'Message:\n' + message + '\n\n' +
-      '--------------------------------\n' +
-      'Submitted from the TRIKAYA MUN 2026 website.'
-    );
-    window.location.href = 'mailto:trikayamun@gmail.com?subject=' + mailSubject + '&body=' + mailBody;
-    st.style.display='block';
-    st.style.background='rgba(50,200,100,0.12)';
-    st.style.border='1px solid rgba(50,200,100,0.4)';
-    st.style.color='rgba(100,220,140,1)';
-    st.innerHTML='\u2713 Opening your email client…';
-    form.reset();
-  });
-})();
-</script></div></div></section><footer class="relative border-t border-border/50 py-12 px-4 sm:px-6 mt-10"><div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6"><div class="flex items-center gap-3"><div class="font-display text-xl text-neon tracking-[0.3em]">TRIKAYA MUN</div><span class="text-xs text-muted-foreground hidden sm:inline">· Diplomacy. Beyond. Dimensions.</span></div><div class="text-xs text-muted-foreground">© 2026 TRIKAYA MUN · All rights reserved.</div><div class="flex gap-4 text-xs text-muted-foreground"><a href="index.html#vision" class="hover:text-gold">Vision</a><a href="index.html#committees" class="hover:text-gold">Committees</a><a href="index.html#contact" class="hover:text-gold">Contact</a></div></div></footer></main><script>(function(t){let s;try{s=JSON.parse(sessionStorage.getItem(t.storageKey)||"{}")}catch(e){console.error(e);return}const c=t.key||window.history.state?.__TSR_key,r=c?s[c]:void 0;if(t.shouldScrollRestoration&&r&&typeof r=="object"&&Object.keys(r).length>0){for(const e in r){const o=r[e];if(!o||typeof o!="object")continue;const l=o.scrollX,i=o.scrollY;if(!(!Number.isFinite(l)||!Number.isFinite(i))){if(e==="window")window.scrollTo({top:i,left:l,behavior:t.behavior});else if(e){let n;try{n=document.querySelector(e)}catch{continue}n&&(n.scrollLeft=l,n.scrollTop=i)}}}return}const a=window.location.hash.split("#",2)[1];if(a){const e=window.history.state?.__hashScrollIntoViewOptions??!0;if(e){const o=document.getElementById(a);o&&o.scrollIntoView(e)}return}window.scrollTo({top:0,left:0,behavior:t.behavior})})({"storageKey":"tsr-scroll-restoration-v1_3","shouldScrollRestoration":true});document.currentScript.remove()</script><!--/$--><a href="index.html#register" class="fixed bottom-5 right-5 z-40 inline-flex items-center gap-2 px-5 py-3 rounded-full bg-gradient-to-r from-gold to-gold-glow text-navy-deep font-semibold shadow-gold animate-glow-pulse hover:scale-105 transition-transform"><span>Register</span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a><script class="$tsr" id="$tsr-stream-barrier">(self.$R=self.$R||{})["tsr"]=[];self.$_TSR={h(){this.hydrated=!0,this.c()},e(){this.streamEnded=!0,this.c()},c(){this.hydrated&&this.streamEnded&&(delete self.$_TSR,delete self.$R.tsr)},p(e){this.initialized?e():this.buffer.push(e)},buffer:[]};$_TSR.router=($R=>$R[0]={manifest:$R[1]={routes:$R[2]={__root__:$R[3]={preloads:$R[4]=["/assets/index-DvNqnX8X.js"],assets:$R[5]=[$R[6]={tag:"script",attrs:$R[7]={type:"module",async:!0},children:"import(\"/assets/index-DvNqnX8X.js\")"}]},"/":$R[8]={preloads:$R[9]=["/assets/index-DJBMxWqs.js"]}}},matches:$R[10]=[$R[11]={i:"__root__ ",u:1782548192973,s:"success",ssr:!0},$R[12]={i:"  ",u:1782548192973,s:"success",ssr:!0}],lastMatchId:"  "})($R["tsr"]);$_TSR.e();document.currentScript.remove()</script>
 
-<script>
-(function(){
-var target=new Date("2026-10-24T09:00:00+05:30").getTime();
-function pad(n){return String(n).padStart(2,"0");}
-function tick(){
-  var t=Math.max(0,target-Date.now());
-  var map={Days:pad(Math.floor(t/864e5)),Hours:pad(Math.floor(t/36e5%24)),Minutes:pad(Math.floor(t/6e4%60)),Seconds:pad(Math.floor(t/1e3%60))};
-  document.querySelectorAll(".tabular-nums").forEach(function(v){var l=v.nextElementSibling;if(!l)return;var k=l.textContent.trim();if(map[k]!==undefined)v.textContent=map[k];});
-}
-var counters={Committees:"7","Conference Days":"2","Diplomatic Spirit":"100%"};
-document.querySelectorAll(".tabular-nums").forEach(function(v){var l=v.nextElementSibling;if(!l)return;var k=l.textContent.trim();if(counters[k]!==undefined)v.textContent=counters[k];});
-tick();setInterval(tick,1000);
-var bar=document.querySelector(".fixed.top-0 .bg-gradient-to-r");
-window.addEventListener("scroll",function(){if(!bar)return;var h=document.documentElement;var p=h.scrollTop/(h.scrollHeight-h.clientHeight)*100;bar.style.width=p+"%";},{passive:true});
-})();
-</script>
-<!-- COMMITTEE MODAL SYSTEM -->
-<div id="committee-modal-overlay" class="committee-modal-overlay" aria-modal="true" role="dialog" aria-hidden="true">
-  <div class="committee-modal-container" id="committee-modal-container">
-    <!-- Close button -->
-    <button class="committee-modal-close" id="modal-close-x" aria-label="Close modal">
-      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 6L6 18M6 6l12 12"/></svg>
-    </button>
-    <!-- Header -->
-    <div class="committee-modal-header">
-      <div class="committee-modal-eyebrow" id="modal-eyebrow">ADVANCED · COMMITTEE</div>
-      <h2 class="committee-modal-title" id="modal-title">UNHRC</h2>
-      <div class="committee-modal-subtitle" id="modal-subtitle">United Nations Human Rights Council</div>
-      <div class="committee-modal-tagline" id="modal-tagline">Rights in the Age of Algorithms</div>
-    </div>
-    <!-- 2x2 Info Grid -->
-    <div class="committee-modal-grid">
-      <div class="committee-modal-card">
-        <div class="committee-modal-card-label">AGENDA</div>
-        <p class="committee-modal-card-text" id="modal-agenda">—</p>
+    .recognized-logo-card-h:hover {
+      background: rgba(210, 170, 80, 0.07);
+      border-color: rgba(210, 170, 80, 0.3);
+      transform: translateY(-3px);
+    }
+
+    .recognized-logo-wrap {
+      flex-shrink: 0;
+      width: 90px;
+      height: 90px;
+      border-radius: 50%;
+      background: linear-gradient(155deg, rgba(186, 128, 255, 0.24) 0%, rgba(124, 64, 200, 0.13) 55%, rgba(255, 255, 255, 0.04) 100%);
+      border: 1px solid rgba(210, 150, 255, 0.28);
+      -webkit-backdrop-filter: blur(8px);
+      backdrop-filter: blur(8px);
+      box-shadow: 0 4px 16px rgba(150, 80, 255, 0.22), inset 0 1px 1px rgba(255, 255, 255, 0.18), inset 0 -3px 8px rgba(0, 0, 0, 0.18);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      transition: box-shadow 0.35s ease, border-color 0.35s ease;
+    }
+
+    .recognized-logo-card-h:hover .recognized-logo-wrap {
+      box-shadow: 0 6px 22px rgba(180, 110, 255, 0.35), inset 0 1px 1px rgba(255, 255, 255, 0.22), inset 0 -3px 8px rgba(0, 0, 0, 0.18);
+      border-color: rgba(210, 150, 255, 0.5);
+    }
+
+    .recognized-logo-img-h {
+      width: 60px;
+      height: 60px;
+      object-fit: contain;
+      display: block;
+    }
+
+    .recognized-logo-text {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .recognized-logo-title {
+      font-family: var('--font-display', 'Playfair Display', serif);
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: #B78BFF;
+      line-height: 1.2;
+    }
+
+    .recognized-logo-desc {
+      font-family: var(--font-body, 'Manrope', sans-serif);
+      font-size: 0.82rem;
+      color: rgba(255, 255, 255, 0.6);
+      line-height: 1.5;
+    }
+
+    @media (max-width: 480px) {
+      .recognized-logo-card-h {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+      }
+
+      .recognized-logo-title {
+        font-size: 1rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      #loading-logo {
+        width: 64px;
+        height: 64px;
+      }
+
+      #loading-title {
+        font-size: 1.4rem;
+        letter-spacing: 0.2em;
+        margin-top: 1rem;
+      }
+
+      #loading-sub {
+        font-size: 0.65rem;
+        letter-spacing: 0.25em;
+        margin-top: 0.4rem;
+      }
+
+      #loading-progress-wrap {
+        width: 80%;
+      }
+    }
+
+    @media (max-width: 320px) {
+      #loading-logo {
+        width: 52px;
+        height: 52px;
+      }
+
+      #loading-title {
+        font-size: 1.1rem;
+        letter-spacing: 0.15em;
+      }
+    }
+
+    .prize-pool-number {
+      font-variant-numeric: tabular-nums;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="trikaya-loading-screen" aria-hidden="true">
+    <img id="loading-logo" src="assets/logo-trikaya-new.png" alt="TRIKAYA MUN Logo" />
+    <div id="loading-title">TRIKAYA MUN 2026</div>
+    <div id="loading-sub">Diplomacy &middot; Beyond &middot; Dimensions</div>
+    <div id="loading-progress-wrap">
+      <div id="loading-progress-bg">
+        <div id="loading-progress-bar"></div>
       </div>
-      <div class="committee-modal-card">
-        <div class="committee-modal-card-label">OVERVIEW</div>
-        <p class="committee-modal-card-text" id="modal-overview">—</p>
-      </div>
-      <div class="committee-modal-card">
-        <div class="committee-modal-card-label">EXECUTIVE BOARD</div>
-        <p class="committee-modal-card-text" id="modal-board">—</p>
-      </div>
-      <div class="committee-modal-card">
-        <div class="committee-modal-card-label">RESOURCES</div>
-        <ul class="committee-modal-resources" id="modal-resources"></ul>
-      </div>
-    </div>
-    <!-- Footer Buttons -->
-    <div class="committee-modal-footer">
-      <button class="committee-modal-btn-register" id="modal-register-btn">Register for UNHRC</button>
-      <button class="committee-modal-btn-all" id="modal-close-all">All Committees</button>
+      <div id="loading-pct">0%</div>
     </div>
   </div>
-</div>
+  <script>
+    (function () {
+      var bar = document.getElementById('loading-progress-bar');
+      var pct = document.getElementById('loading-pct');
+      var screen = document.getElementById('trikaya-loading-screen');
+      var start = Date.now();
+      var duration = 3000;
+      function step() {
+        var elapsed = Date.now() - start;
+        var p = Math.min(100, Math.round((elapsed / duration) * 100));
+        bar.style.width = p + '%';
+        pct.textContent = p + '%';
+        if (elapsed < duration) { requestAnimationFrame(step); }
+        else {
+          screen.classList.add('hidden');
+          setTimeout(function () { screen.style.display = 'none'; }, 750);
+        }
+      }
+      requestAnimationFrame(step);
+    })();
+  </script>
+  <div
+    class="fixed inset-0 z-[100] flex items-center justify-center bg-navy-deep transition-opacity duration-700 opacity-0 pointer-events-none"
+    style="display:none">
+    <div class="flex flex-col items-center gap-6"><img src="assets/logo-trikaya-new.png" alt=""
+        class="w-24 h-24 animate-glow-pulse" />
+      <div class="font-display text-3xl tracking-[0.3em] text-gradient-gold">TRIKAYA</div>
+      <div class="text-[10px] uppercase tracking-[0.4em] text-muted-foreground">Diplomacy · Beyond · Dimensions</div>
+      <div class="w-48 h-px bg-gold/20 overflow-hidden">
+        <div
+          class="h-full w-1/3 bg-gradient-to-r from-transparent via-gold to-transparent animate-[shimmer_1.4s_linear_infinite]"
+          style="background-size:200% 100%"></div>
+      </div>
+    </div>
+  </div>
+  <div class="fixed top-0 left-0 right-0 h-[2px] z-[60] bg-transparent">
+    <div class="h-full bg-gradient-to-r from-gold via-gold-glow to-gold transition-[width] duration-150"
+      style="width:0%"></div>
+  </div>
+  <header class="fixed top-0 inset-x-0 z-50 transition-all duration-500 py-4">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 transition-all duration-500 ">
+      <div class="flex items-center justify-between h-14"><a class="flex items-center gap-3 group active"
+          href="index.html" data-status="active" aria-current="page"><img src="assets/logo-trikaya-new.png" alt=""
+            class="w-9 h-9 group-hover:rotate-12 transition-transform duration-500" />
+          <div class="leading-tight">
+            <div class="font-display text-lg sm:text-xl tracking-wider text-gradient-gold">TRIKAYA</div>
+            <div class="text-[9px] uppercase tracking-[0.3em] text-muted-foreground">MUN 2026</div>
+          </div>
+        </a>
+        <nav class="hidden md:flex items-center gap-8"><a href="index.html"
+            class="text-sm text-foreground/80 hover:text-gold transition-colors relative group">Home<span
+              class="absolute left-0 -bottom-1 h-px w-0 bg-gold transition-all duration-300 group-hover:w-full"></span></a><a
+            href="venue.html"
+            class="text-sm text-foreground/80 hover:text-gold transition-colors relative group">Venue<span
+              class="absolute left-0 -bottom-1 h-px w-0 bg-gold transition-all duration-300 group-hover:w-full"></span></a><a
+            href="index.html#vision"
+            class="text-sm text-foreground/80 hover:text-gold transition-colors relative group">Vision<span
+              class="absolute left-0 -bottom-1 h-px w-0 bg-gold transition-all duration-300 group-hover:w-full"></span></a><a
+            href="index.html#committees"
+            class="text-sm text-foreground/80 hover:text-gold transition-colors relative group">Committees<span
+              class="absolute left-0 -bottom-1 h-px w-0 bg-gold transition-all duration-300 group-hover:w-full"></span></a><a
+            href="index.html#team"
+            class="text-sm text-foreground/80 hover:text-gold transition-colors relative group">Team<span
+              class="absolute left-0 -bottom-1 h-px w-0 bg-gold transition-all duration-300 group-hover:w-full"></span></a><a
+            href="index.html#contact"
+            class="text-sm text-foreground/80 hover:text-gold transition-colors relative group">Contact<span
+              class="absolute left-0 -bottom-1 h-px w-0 bg-gold transition-all duration-300 group-hover:w-full"></span></a>
+        </nav><a href="index.html#register"
+          class="hidden md:inline-flex items-center px-5 py-2 rounded-full text-sm font-medium bg-gradient-to-r from-gold to-gold-glow text-navy-deep hover:shadow-gold transition-all">Register</a><button
+          class="md:hidden text-foreground" aria-label="Menu"><svg width="26" height="26" viewBox="0 0 24 24"
+            fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M3 6h18"></path>
+            <path d="M3 12h18"></path>
+            <path d="M3 18h18"></path>
+          </svg></button>
+      </div>
+    </div>
+  </header><!--$-->
+  <main class="overflow-x-hidden">
+    <section class="relative min-h-screen flex items-center justify-center pt-24 pb-16 px-4">
+      <div class="absolute inset-0 z-0"
+        style="background-image:url(assets/hero-bg-rjqz_psa.jpg);background-size:cover;background-position:center">
+      </div>
+      <div class="absolute inset-0 bg-gradient-to-b from-navy-deep/65 via-navy-deep/55 to-navy-deep z-[1]"></div>
+      <div class="absolute inset-0 bg-stars opacity-60 z-[1]"></div><canvas
+        class="absolute inset-0 h-full w-full pointer-events-none" aria-hidden="true"></canvas>
+      <div class="relative z-10 max-w-5xl mx-auto text-center">
+        <div class="inline-flex items-center gap-2 glass rounded-full px-4 py-1.5 mb-8 animate-fade-up"><span
+            class="w-1.5 h-1.5 rounded-full bg-gold animate-glow-pulse"></span><span
+            class="text-xs uppercase tracking-[0.3em] text-gold">Maiden Edition · 24–25 October 2026</span></div>
+        <h1
+          class="text-6xl sm:text-8xl lg:text-[10rem] font-display font-bold tracking-[0.04em] mb-6 animate-fade-up text-neon animate-neon-flicker">
+          TRIKAYA</h1>
+        <div class="text-xs sm:text-sm tracking-[0.7em] text-foreground/70 -mt-2 mb-6 font-display">MODEL · UNITED ·
+          NATIONS</div>
+        <div class="flex items-center justify-center gap-4 my-6 animate-fade-up" style="animation-delay:120ms"><span
+            class="neon-rule w-16 sm:w-24"></span>
+          <p class="text-base sm:text-2xl font-display italic text-gradient-gold tracking-widest">Diplomacy. Beyond.
+            Dimensions.</p><span class="neon-rule w-16 sm:w-24"></span>
+        </div>
+        <p class="max-w-2xl mx-auto text-muted-foreground mb-6 animate-fade-up" style="animation-delay:300ms">More than
+          a conference — a movement of ideas, voices, and change-makers. Held on United Nations Day.</p>
+        <div class="flex flex-wrap items-center justify-center gap-3 mb-8 animate-fade-up"
+          style="animation-delay:450ms"><a href="index.html#register"
+            class="px-8 py-3.5 rounded-full bg-gradient-to-r from-gold to-gold-glow text-navy-deep font-semibold shadow-gold hover:scale-105 transition-transform animate-glow-pulse">Register
+            Now</a><a href="venue.html"
+            class="px-8 py-3.5 rounded-full text-foreground font-semibold transition-all hover:scale-105"
+            style="background:rgba(139,92,246,0.25);border:1px solid rgba(139,92,246,0.6);backdrop-filter:blur(12px);box-shadow:0 0 20px rgba(139,92,246,0.2)">Venue</a><a
+            href="index.html#committees"
+            class="px-8 py-3.5 rounded-full glass text-foreground hover:bg-white/10 transition-colors">Explore
+            Committees</a></div>
+        <div class="animate-fade-up" style="animation-delay:600ms">
+          <div class="flex flex-wrap items-center justify-center gap-3 sm:gap-5">
+            <div class="glass-gold rounded-2xl px-5 py-4 sm:px-7 sm:py-5 min-w-[88px] sm:min-w-[110px] text-center">
+              <div class="text-3xl sm:text-5xl font-display font-semibold text-gradient-gold tabular-nums">--</div>
+              <div class="text-[10px] sm:text-xs uppercase tracking-[0.25em] text-muted-foreground mt-1">Days</div>
+            </div>
+            <div class="glass-gold rounded-2xl px-5 py-4 sm:px-7 sm:py-5 min-w-[88px] sm:min-w-[110px] text-center">
+              <div class="text-3xl sm:text-5xl font-display font-semibold text-gradient-gold tabular-nums">--</div>
+              <div class="text-[10px] sm:text-xs uppercase tracking-[0.25em] text-muted-foreground mt-1">Hours</div>
+            </div>
+            <div class="glass-gold rounded-2xl px-5 py-4 sm:px-7 sm:py-5 min-w-[88px] sm:min-w-[110px] text-center">
+              <div class="text-3xl sm:text-5xl font-display font-semibold text-gradient-gold tabular-nums">--</div>
+              <div class="text-[10px] sm:text-xs uppercase tracking-[0.25em] text-muted-foreground mt-1">Minutes</div>
+            </div>
+            <div class="glass-gold rounded-2xl px-5 py-4 sm:px-7 sm:py-5 min-w-[88px] sm:min-w-[110px] text-center">
+              <div class="text-3xl sm:text-5xl font-display font-semibold text-gradient-gold tabular-nums">--</div>
+              <div class="text-[10px] sm:text-xs uppercase tracking-[0.25em] text-muted-foreground mt-1">Seconds</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="absolute bottom-8 left-1/2 -translate-x-1/2 z-10 text-gold/60 text-xs uppercase tracking-[0.4em] flex flex-col items-center gap-2 animate-float">
+        <span>Scroll</span>
+        <div class="w-px h-10 bg-gradient-to-b from-gold to-transparent"></div>
+      </div>
+    </section>
+    <section class="relative py-14 px-4 sm:px-6">
+      <div class="max-w-6xl mx-auto">
+        <div class="glass-gold rounded-3xl p-8 sm:p-14 relative overflow-hidden text-center">
+          <div class="absolute -top-32 -right-32 w-96 h-96 rounded-full bg-gold/15 blur-3xl"></div>
+          <div class="absolute -bottom-32 -left-32 w-96 h-96 rounded-full bg-royal/40 blur-3xl"></div>
+          <div class="relative">
+            <div class="text-xs uppercase tracking-[0.4em] text-gold mb-4">Section 01 · Dates</div>
+            <div class="grid sm:grid-cols-3 gap-6 items-center">
+              <div class="text-7xl sm:text-8xl font-display font-bold text-neon">24<sup class="text-2xl">th</sup></div>
+              <div class="flex flex-col items-center">
+                <div class="text-3xl sm:text-4xl font-display text-gradient-gold">&amp;</div>
+                <div class="mt-3 text-xs uppercase tracking-[0.4em] text-muted-foreground">October 2026</div>
+                <div class="mt-2 text-sm text-gold/90 font-display italic">on United Nations Day</div>
+              </div>
+              <div class="text-7xl sm:text-8xl font-display font-bold text-neon">25<sup class="text-2xl">th</sup></div>
+            </div>
+            <div class="neon-rule mt-10 mx-auto max-w-md"></div>
+            <p class="max-w-2xl mx-auto text-muted-foreground mt-6 text-sm">Coinciding with the founding of the United
+              Nations — a celebration of diplomacy, cooperation, and global citizenship.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="vision" class="relative py-16 px-4 sm:px-6">
+      <div class="max-w-6xl mx-auto">
+        <div class="text-center mb-8">
+          <div class="text-xs uppercase tracking-[0.4em] text-gold mb-4">Section 02 · Our Vision</div>
+        </div>
+        <div class="grid lg:grid-cols-12 gap-10 items-start">
+          <div class="lg:col-span-7 space-y-6 text-lg leading-relaxed text-foreground/85">
+            <p>In a world driven by dialogue, collaboration, and innovation,<span class="text-gold"> TRIKAYA MUN
+                transcends boundaries</span> of geography, perspective, and convention.</p>
+            <p>Our mission is to create a platform where young leaders engage in meaningful discourse, think critically,
+              speak confidently, and lead responsibly.</p>
+            <p class="text-muted-foreground italic">Step in. Speak up. Lead beyond limits.</p>
+          </div>
+          <div class="lg:col-span-5 space-y-4">
+            <div class="glass rounded-2xl p-6 flex gap-5 hover:translate-x-1 transition-transform">
+              <div class="text-3xl font-display text-gold/80">01</div>
+              <div>
+                <div class="font-display text-xl">Discourse</div>
+                <div class="text-sm text-muted-foreground">Substantive debate over rhetoric.</div>
+              </div>
+            </div>
+            <div class="glass rounded-2xl p-6 flex gap-5 hover:translate-x-1 transition-transform">
+              <div class="text-3xl font-display text-gold/80">02</div>
+              <div>
+                <div class="font-display text-xl">Leadership</div>
+                <div class="text-sm text-muted-foreground">Confidence forged on the floor.</div>
+              </div>
+            </div>
+            <div class="glass rounded-2xl p-6 flex gap-5 hover:translate-x-1 transition-transform">
+              <div class="text-3xl font-display text-gold/80">03</div>
+              <div>
+                <div class="font-display text-xl">Impact</div>
+                <div class="text-sm text-muted-foreground">Ideas that travel beyond the room.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-8 mt-10">
+          <div class="text-center">
+            <div class="text-4xl sm:text-5xl font-display text-gradient-gold tabular-nums">0</div>
+            <div class="text-xs uppercase tracking-[0.3em] text-muted-foreground mt-2">Committees</div>
+          </div>
+          <div class="text-center">
+            <div class="text-4xl sm:text-5xl font-display text-gradient-gold tabular-nums">0</div>
+            <div class="text-xs uppercase tracking-[0.3em] text-muted-foreground mt-2">Conference Days</div>
+          </div>
+          <div class="text-center">
+            <div class="text-4xl sm:text-5xl font-display text-gradient-gold tabular-nums">0<!-- -->%</div>
+            <div class="text-xs uppercase tracking-[0.3em] text-muted-foreground mt-2">Diplomatic Spirit</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="relative py-16 px-4 overflow-hidden">
+      <div class="absolute inset-0 bg-grid opacity-40"></div>
+      <div class="absolute inset-0 bg-gradient-to-b from-transparent via-navy-deep/60 to-transparent"></div>
+      <div class="relative max-w-5xl mx-auto text-center">
+        <div class="text-xs uppercase tracking-[0.4em] text-gold mb-6">Section 03 · Our Motto</div>
+        <h2 class="text-6xl sm:text-8xl font-display leading-[0.95] mb-8 tracking-wide"><span
+            class="text-neon">DIPLOMACY</span><span class="block italic text-gradient-gold my-2">Beyond</span><span
+            class="text-neon">DIMENSIONS.</span></h2>
+        <p class="max-w-2xl mx-auto text-lg text-muted-foreground">At TRIKAYA MUN, diplomacy becomes leadership,
+          collaboration, critical thinking, and the limitless belief that today&#x27;s youth can create impact far
+          beyond committee rooms.</p>
+        <div class="mt-8 flex flex-col items-center justify-center"><span
+            class="text-2xl sm:text-6xl font-display font-bold tracking-[0.03em] sm:tracking-[0.1em] text-gradient-gold leading-tight break-words max-w-full px-3"
+            style="text-shadow: 0 0 20px rgba(210,110,245,0.6), 0 0 40px rgba(210,110,245,0.3), 0 0 60px rgba(139,92,246,0.2); filter: drop-shadow(0 0 15px rgba(210,110,245,0.4));">#GoGreenWithTrikaya</span>
+          <div class="mt-6 space-y-2 text-sm sm:text-base text-muted-foreground leading-relaxed">
+            <p>This initiative was started for a better and sustainable world!!!</p>
+            <p>Our aim is to plant 500+ trees and plants</p>
+            <p class="text-gold font-semibold">Be the part of change</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="relative py-14 px-4 sm:px-6">
+      <div class="max-w-6xl mx-auto text-center">
+        <div class="text-xs uppercase tracking-[0.4em] text-gold mb-4">Section 04</div>
+        <h2 class="text-4xl sm:text-5xl font-display text-neon mb-3">Recognized By</h2>
+        <p class="text-sm text-muted-foreground mb-7">Aligned with national &amp; global initiatives.</p>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6"
+          style="max-width:900px;margin-left:auto;margin-right:auto;width:100%;">
+          <!-- Logo 1: University of Delhi -->
+          <div class="recognized-logo-card-h">
+            <div class="recognized-logo-wrap"><img class="recognized-logo-img-h" src="assets/recognized/du-final.png"
+                alt="University of Delhi" loading="lazy" /></div>
+            <div class="recognized-logo-text"><span class="recognized-logo-title">University of Delhi</span><span
+                class="recognized-logo-desc">A leading Indian university known for academic excellence, innovation, and
+                holistic education.</span></div>
+          </div>
+          <!-- Logo 2: UN SDGs -->
+          <div class="recognized-logo-card-h">
+            <div class="recognized-logo-wrap"><img class="recognized-logo-img-h" src="assets/recognized/sdg-final.png"
+                alt="UN Sustainable Development Goals" loading="lazy" /></div>
+            <div class="recognized-logo-text"><span class="recognized-logo-title">UN Sustainable Development Goals
+                (SDGs)</span><span class="recognized-logo-desc">A global framework of 17 goals promoting sustainable,
+                inclusive, and equitable development by 2030.</span></div>
+          </div>
+          <!-- Logo 3: BRICS Think Tank Council -->
+          <div class="recognized-logo-card-h">
+            <div class="recognized-logo-wrap"><img class="recognized-logo-img-h" src="assets/recognized/brics-final.png"
+                alt="BRICS Think Tank Council" loading="lazy" /></div>
+            <div class="recognized-logo-text"><span class="recognized-logo-title">BRICS Think Tank Council</span><span
+                class="recognized-logo-desc">A collaborative platform connecting BRICS research institutions to shape
+                policy and strategic cooperation.</span></div>
+          </div>
+          <!-- Logo 4: Viksit Bharat Abhiyan -->
+          <div class="recognized-logo-card-h">
+            <div class="recognized-logo-wrap"><img class="recognized-logo-img-h"
+                src="assets/recognized/viksit-final.png" alt="Viksit Bharat Abhiyan" loading="lazy" /></div>
+            <div class="recognized-logo-text"><span class="recognized-logo-title">Viksit Bharat Abhiyan</span><span
+                class="recognized-logo-desc">A national initiative focused on building a developed, inclusive, and
+                future-ready India by 2047.</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="relative py-14 px-4 sm:px-6">
+      <div class="max-w-6xl mx-auto">
+        <div class="text-center mb-8">
+          <div class="text-xs uppercase tracking-[0.4em] text-gold mb-4">Section 05 · In Collaboration With</div>
+          <h2 class="text-5xl sm:text-6xl font-display text-neon">Our Partners</h2>
+        </div>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div
+            class="group glass rounded-3xl p-8 hover:shadow-glow transition-all duration-500 relative overflow-hidden">
+            <div
+              class="absolute -top-24 -right-24 w-64 h-64 rounded-full bg-gold/15 blur-3xl group-hover:bg-gold/30 transition">
+            </div>
+            <div class="text-xs uppercase tracking-[0.3em] text-gold/80 mb-3">Building Minds · Bridging Future</div>
+            <h3 class="text-3xl font-display mb-4 text-neon">Vigilante Foundation</h3>
+            <p class="text-muted-foreground leading-relaxed">A youth-led organization empowering students through
+              leadership, public speaking, Model UNs and academic initiatives that turn dialogue into action.</p>
+          </div>
+          <div
+            class="group glass rounded-3xl p-8 hover:shadow-glow transition-all duration-500 relative overflow-hidden">
+            <div
+              class="absolute -top-24 -right-24 w-64 h-64 rounded-full bg-gold/15 blur-3xl group-hover:bg-gold/30 transition">
+            </div>
+            <div class="text-xs uppercase tracking-[0.3em] text-gold/80 mb-3">Where Ideas Become Action</div>
+            <h3 class="text-3xl font-display mb-4 text-neon">Elion Organization</h3>
+            <p class="text-muted-foreground leading-relaxed">Committed to excellence and community engagement —
+              fostering creativity, teamwork and global awareness to shape responsible leaders for an ever-evolving
+              world.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="team" class="relative py-12 px-4 sm:px-6">
+      <div class="max-w-6xl mx-auto space-y-8">
+        <div class="grid lg:grid-cols-12 gap-6 items-center">
+          <div class="lg:col-span-4 relative">
+            <div
+              class="relative aspect-[3/4] max-w-[320px] mx-auto lg:mx-0 rounded-2xl overflow-hidden glass-gold p-1.5">
+              <img src="__l5e/assets-v1/14a8e048-aac2-4ef9-9534-f3b59f75fafe/founder.png" alt="Vansh Gupta — Founder"
+                loading="lazy" width="1024" height="1024" class="w-full h-full object-cover rounded-xl" /></div>
+            <div class="absolute -bottom-3 -right-3 glass-gold rounded-xl px-4 py-2 text-sm">
+              <div class="text-[10px] uppercase tracking-[0.3em] text-gold">Founder</div>
+              <div class="font-display text-base">Vansh Gupta</div>
+            </div>
+          </div>
+          <div class="lg:col-span-8">
+            <div class="text-xs uppercase tracking-[0.4em] text-gold mb-4">Section 06 · Founder&#x27;s Vision</div>
+            <h3 class="text-4xl font-display mb-5 text-neon">Vansh Gupta</h3>
+            <blockquote
+              class="text-lg sm:text-xl font-display italic leading-relaxed mb-5 border-l-2 border-gold/60 pl-5">
+              &quot;TRIKAYA is not just about discussion — it is about creating impact that extends far beyond these
+              sessions.&quot;</blockquote>
+            <p class="text-muted-foreground leading-relaxed">It gives me immense pride to welcome you to the maiden
+              edition of TRIKAYA MUN. What you are stepping into is not merely a conference, but a platform built to
+              challenge perspectives, inspire dialogue, and shape individuals into confident global thinkers.</p>
+          </div>
+        </div>
+        <div class="grid lg:grid-cols-12 gap-6 items-center">
+          <div class="lg:col-span-8 order-2 lg:order-1">
+            <div class="text-xs uppercase tracking-[0.4em] text-gold mb-4">Section 07 · Co-Founder&#x27;s Vision</div>
+            <h3 class="text-4xl font-display mb-5 text-neon">Anvi Aggarwal</h3>
+            <blockquote
+              class="text-lg sm:text-xl font-display italic leading-relaxed mb-5 border-l-2 border-gold/60 pl-5">
+              &quot;Help shape a future defined by dialogue and impact.&quot;</blockquote>
+            <p class="text-muted-foreground leading-relaxed">TRIKAYA is founded on the idea that diplomacy is not merely
+              an exchange of words, but a process of understanding perspectives and building meaningful connections.
+              Through this inaugural conference, we aim to provide an environment that encourages intellectual
+              curiosity, confidence and collaborative thinking.</p>
+          </div>
+          <div class="lg:col-span-4 order-1 lg:order-2 relative">
+            <div
+              class="relative aspect-[3/4] max-w-[320px] mx-auto lg:mx-0 lg:ml-auto rounded-2xl overflow-hidden glass-gold p-1.5">
+              <img src="__l5e/assets-v1/38389880-6dd8-4a83-9020-e9b0be848c8b/cofounder.png"
+                alt="Anvi Aggarwal — Co-Founder" loading="lazy" width="1024" height="1024"
+                class="w-full h-full object-cover rounded-xl" /></div>
+            <div class="absolute -bottom-3 -left-3 glass-gold rounded-xl px-4 py-2 text-sm">
+              <div class="text-[10px] uppercase tracking-[0.3em] text-gold">Co-Founder</div>
+              <div class="font-display text-base">Anvi Aggarwal</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="committees" class="relative py-16 px-4 sm:px-6">
+      <div class="max-w-7xl mx-auto">
+        <div class="text-center mb-8">
+          <div class="text-xs uppercase tracking-[0.4em] text-gold mb-4">Section 08</div>
+          <h2 class="text-5xl sm:text-6xl font-display text-gradient-royal mb-4">The Committees</h2>
+          <p class="text-muted-foreground max-w-2xl mx-auto">Seven floors. Seven worlds. Choose where your voice will
+            resonate.</p>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
 
-<style>
-/* ===== COMMITTEE HOVER OVERLAY ===== */
-.view-details-btn-back {
-  cursor: pointer;
-  padding: 0.55rem 1.6rem;
-  border-radius: 9999px;
-  font-size: 0.82rem;
-  font-weight: 600;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: oklch(8% .04 295);
-  background: linear-gradient(135deg, oklch(86% .18 330), oklch(62% .24 310));
-  border: none;
-  box-shadow: 0 0 22px oklch(78% .22 320 / 0.55), 0 4px 14px rgba(0,0,0,0.4);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-  font-family: var(--font-body);
-}
-.view-details-btn-back:hover {
-  transform: scale(1.06);
-  box-shadow: 0 0 36px oklch(78% .22 320 / 0.75), 0 6px 20px rgba(0,0,0,0.5);
-}
+          <div class="flip-card committee-card-modal relative h-[22rem]" data-committee="unhrc"
+            style="animation-delay:0ms">
+            <div class="flip-inner relative w-full h-full">
+              <div class="flip-face glass rounded-2xl overflow-hidden">
+                <div class="committee-front-content">
+                  <h3 class="committee-name-only text-neon">UNHRC</h3><span class="committee-fullform">United Nations
+                    Human Rights Council</span>
+                </div>
+              </div>
+              <div class="flip-face flip-back glass-gold rounded-2xl">
+                <div class="committee-agenda-back">
+                  <div class="agenda-label">Agenda</div>
+                  <p class="agenda-text">Deliberation upon Strengthening the International Mechanisms to Combat Systemic
+                    Discrimination and Ensure Accountability for Human Rights Violations, with Special Emphasis on the
+                    Rohingya Crisis in Myanmar</p><button class="view-details-btn-back"
+                    onclick="event.stopPropagation(); openCommitteeModal(this.closest('[data-committee]').getAttribute('data-committee'))">View
+                    Details</button>
+                </div>
+              </div>
+            </div>
+          </div>
 
-/* ===== MODAL OVERLAY ===== */
-.committee-modal-overlay {
-  position: fixed;
-  inset: 0;
-  z-index: 1000;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 1rem;
-  background: rgba(4, 2, 12, 0.82);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity 0.35s cubic-bezier(0.4, 0, 0.2, 1);
-  overflow-y: auto;
-}
-.committee-modal-overlay.is-open {
-  opacity: 1;
-  pointer-events: auto;
-}
-.committee-modal-container {
-  position: relative;
-  width: 100%;
-  max-width: 860px;
-  max-height: 92vh;
-  overflow-y: auto;
-  border-radius: 24px;
-  background: linear-gradient(155deg, oklch(13% .07 300) 0%, oklch(9% .05 295) 50%, oklch(11% .09 305) 100%);
-  border: 1px solid oklch(78% .22 320 / 0.22);
-  box-shadow:
-    0 0 0 1px oklch(78% .22 320 / 0.08) inset,
-    0 30px 80px -20px rgba(0,0,0,0.8),
-    0 0 80px oklch(78% .22 320 / 0.12);
-  padding: 2.5rem 2rem 2rem;
-  transform: translateY(28px) scale(0.97);
-  transition: transform 0.38s cubic-bezier(0.22, 1, 0.36, 1);
-  scrollbar-width: thin;
-  scrollbar-color: oklch(78% .22 320 / 0.2) transparent;
-}
-.committee-modal-overlay.is-open .committee-modal-container {
-  transform: translateY(0) scale(1);
-}
+          <div class="flip-card committee-card-modal relative h-[22rem]" data-committee="unga"
+            style="animation-delay:80ms">
+            <div class="flip-inner relative w-full h-full">
+              <div class="flip-face glass rounded-2xl overflow-hidden">
+                <div class="committee-front-content">
+                  <h3 class="committee-name-only text-neon">UNGA</h3><span class="committee-fullform">United Nations
+                    General Assembly</span>
+                </div>
+              </div>
+              <div class="flip-face flip-back glass-gold rounded-2xl">
+                <div class="committee-agenda-back">
+                  <div class="agenda-label">Agenda</div>
+                  <p class="agenda-text">Deliberation on the regulation of Artificial Intelligence in military and
+                    surveillance systems, with special emphasis on responsible governance of cyberspace and
+                    strengthening global mechanisms against cyber warfare.</p><button class="view-details-btn-back"
+                    onclick="event.stopPropagation(); openCommitteeModal(this.closest('[data-committee]').getAttribute('data-committee'))">View
+                    Details</button>
+                </div>
+              </div>
+            </div>
+          </div>
 
-/* Scrollbar */
-.committee-modal-container::-webkit-scrollbar { width: 4px; }
-.committee-modal-container::-webkit-scrollbar-track { background: transparent; }
-.committee-modal-container::-webkit-scrollbar-thumb { background: oklch(78% .22 320 / 0.3); border-radius: 4px; }
+          <div class="flip-card committee-card-modal relative h-[22rem]" data-committee="aippm"
+            style="animation-delay:160ms">
+            <div class="flip-inner relative w-full h-full">
+              <div class="flip-face glass rounded-2xl overflow-hidden">
+                <div class="committee-front-content">
+                  <h3 class="committee-name-only text-neon">AIPPM</h3><span class="committee-fullform">All India
+                    Political Parties Meet</span>
+                </div>
+              </div>
+              <div class="flip-face flip-back glass-gold rounded-2xl">
+                <div class="committee-agenda-back">
+                  <div class="agenda-label">Agenda</div>
+                  <p class="agenda-text">Deliberation on the Role of UGC in Higher Education Reforms with Special
+                    Reference to Budgetary Allocations and NEP 2020</p><button class="view-details-btn-back"
+                    onclick="event.stopPropagation(); openCommitteeModal(this.closest('[data-committee]').getAttribute('data-committee'))">View
+                    Details</button>
+                </div>
+              </div>
+            </div>
+          </div>
 
-/* Close X */
-.committee-modal-close {
-  position: absolute;
-  top: 1.1rem;
-  right: 1.25rem;
-  background: oklch(100% 0 0 / 0.07);
-  border: 1px solid oklch(78% .22 320 / 0.18);
-  border-radius: 50%;
-  width: 2.1rem;
-  height: 2.1rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  color: oklch(72% .05 320);
-  transition: background 0.2s, color 0.2s, transform 0.2s;
-}
-.committee-modal-close:hover {
-  background: oklch(78% .22 320 / 0.15);
-  color: oklch(96% .02 320);
-  transform: rotate(90deg);
-}
+          <div class="flip-card committee-card-modal relative h-[22rem]" data-committee="ipc"
+            style="animation-delay:240ms">
+            <div class="flip-inner relative w-full h-full">
+              <div class="flip-face glass rounded-2xl overflow-hidden">
+                <div class="committee-front-content">
+                  <h3 class="committee-name-only text-neon">IPC</h3><span class="committee-fullform">International Press
+                    Corps</span>
+                </div>
+              </div>
+              <div class="flip-face flip-back glass-gold rounded-2xl">
+                <div class="committee-agenda-back">
+                  <div class="agenda-label">Agenda</div>
+                  <p class="agenda-text">Journalists , Caricaturist and Photographers Committee.</p><button
+                    class="view-details-btn-back"
+                    onclick="event.stopPropagation(); openCommitteeModal(this.closest('[data-committee]').getAttribute('data-committee'))">View
+                    Details</button>
+                </div>
+              </div>
+            </div>
+          </div>
 
-/* Header */
-.committee-modal-header {
-  text-align: center;
-  margin-bottom: 2rem;
-  padding-bottom: 1.6rem;
-  border-bottom: 1px solid oklch(78% .22 320 / 0.14);
-}
-.committee-modal-eyebrow {
-  font-size: 0.65rem;
-  letter-spacing: 0.35em;
-  text-transform: uppercase;
-  color: oklch(78% .22 320);
-  margin-bottom: 0.7rem;
-  font-family: var(--font-body);
-  font-weight: 500;
-}
-.committee-modal-title {
-  font-family: var(--font-display);
-  font-size: clamp(2.4rem, 6vw, 3.8rem);
-  font-weight: 700;
-  letter-spacing: 0.04em;
-  line-height: 1;
-  color: oklch(95% .12 325);
-  text-shadow:
-    0 0 6px oklch(86% .22 320 / 0.9),
-    0 0 22px oklch(78% .22 320 / 0.65),
-    0 0 50px oklch(62% .24 310 / 0.5);
-  margin-bottom: 0.5rem;
-}
-.committee-modal-subtitle {
-  font-family: var(--font-body);
-  font-size: 0.95rem;
-  color: oklch(72% .05 320);
-  margin-bottom: 0.55rem;
-  letter-spacing: 0.02em;
-}
-.committee-modal-tagline {
-  font-style: italic;
-  font-size: 1rem;
-  color: oklch(80% .14 340);
-  font-family: var(--font-display);
-  letter-spacing: 0.01em;
-}
+          <div class="flip-card committee-card-modal relative h-[22rem]" data-committee="ipl"
+            style="animation-delay:320ms">
+            <div class="flip-inner relative w-full h-full">
+              <div class="flip-face glass rounded-2xl overflow-hidden">
+                <div class="committee-front-content">
+                  <h3 class="committee-name-only text-neon">IPL</h3><span class="committee-fullform">Indian Premier
+                    League — Mega Auction (only Day 2)</span>
+                </div>
+              </div>
+              <div class="flip-face flip-back glass-gold rounded-2xl">
+                <div class="committee-agenda-back">
+                  <div class="agenda-label">Agenda</div>
+                  <p class="agenda-text">Mega Auction 2026.</p><button class="view-details-btn-back"
+                    onclick="event.stopPropagation(); openCommitteeModal(this.closest('[data-committee]').getAttribute('data-committee'))">View
+                    Details</button>
+                </div>
+              </div>
+            </div>
+          </div>
 
-/* 2x2 Info Grid */
-.committee-modal-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1rem;
-  margin-bottom: 1.75rem;
-}
-@media (max-width: 540px) {
-  .committee-modal-grid { grid-template-columns: 1fr; }
-}
-.committee-modal-card {
-  background: linear-gradient(135deg, oklch(17% .08 300 / 0.85), oklch(14% .06 295 / 0.85));
-  border: 1px solid oklch(78% .22 320 / 0.15);
-  border-radius: 14px;
-  padding: 1.2rem 1.25rem;
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
-  transition: border-color 0.2s, box-shadow 0.2s;
-}
-.committee-modal-card:hover {
-  border-color: oklch(78% .22 320 / 0.28);
-  box-shadow: 0 0 20px oklch(78% .22 320 / 0.07);
-}
-.committee-modal-card-label {
-  font-size: 0.6rem;
-  letter-spacing: 0.3em;
-  text-transform: uppercase;
-  font-weight: 600;
-  color: oklch(78% .22 320);
-  margin-bottom: 0.6rem;
-  font-family: var(--font-body);
-}
-.committee-modal-card-text {
-  font-size: 0.875rem;
-  line-height: 1.65;
-  color: oklch(88% .03 320);
-  font-family: var(--font-body);
-}
-.committee-modal-resources {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 0.35rem;
-}
-.committee-modal-resources li {
-  font-size: 0.875rem;
-  color: oklch(88% .03 320);
-  padding-left: 1.1rem;
-  position: relative;
-  line-height: 1.5;
-}
-.committee-modal-resources li::before {
-  content: "›";
-  position: absolute;
-  left: 0;
-  color: oklch(78% .22 320);
-  font-weight: 700;
-}
+          <div class="flip-card committee-card-modal relative h-[22rem]" data-committee="mahabharat"
+            style="animation-delay:480ms">
+            <div class="flip-inner relative w-full h-full">
+              <div class="flip-face glass rounded-2xl overflow-hidden">
+                <div class="committee-front-content">
+                  <h3 class="committee-name-only text-neon">Mahabharat</h3><span
+                    class="committee-fullform">Mahabharat</span>
+                </div>
+              </div>
+              <div class="flip-face flip-back glass-gold rounded-2xl">
+                <div class="committee-agenda-back">
+                  <div class="agenda-label">Agenda</div>
+                  <p class="agenda-text">Yudh Ka Aadhaar: Dharm Ya Rajya Ki Lalasa?</p><button
+                    class="view-details-btn-back"
+                    onclick="event.stopPropagation(); openCommitteeModal(this.closest('[data-committee]').getAttribute('data-committee'))">View
+                    Details</button>
+                </div>
+              </div>
+            </div>
+          </div>
 
-/* Footer */
-.committee-modal-footer {
-  display: flex;
-  gap: 0.85rem;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-.committee-modal-btn-register {
-  cursor: pointer;
-  padding: 0.7rem 2rem;
-  border-radius: 9999px;
-  font-family: var(--font-body);
-  font-size: 0.9rem;
-  font-weight: 700;
-  color: oklch(8% .04 295);
-  background: linear-gradient(135deg, oklch(86% .18 330), oklch(62% .24 310));
-  border: none;
-  box-shadow:
-    0 0 28px oklch(78% .22 320 / 0.55),
-    0 4px 16px rgba(0,0,0,0.35);
-  transition: transform 0.2s, box-shadow 0.2s;
-  letter-spacing: 0.02em;
-}
-.committee-modal-btn-register:hover {
-  transform: scale(1.04);
-  box-shadow: 0 0 44px oklch(78% .22 320 / 0.75), 0 6px 22px rgba(0,0,0,0.45);
-}
-.committee-modal-btn-all {
-  cursor: pointer;
-  padding: 0.7rem 2rem;
-  border-radius: 9999px;
-  font-family: var(--font-body);
-  font-size: 0.9rem;
-  font-weight: 500;
-  color: oklch(96% .02 320);
-  background: oklch(18% .08 295 / 0.8);
-  border: 1px solid oklch(78% .22 320 / 0.3);
-  backdrop-filter: blur(8px);
-  transition: background 0.2s, border-color 0.2s, transform 0.2s;
-  letter-spacing: 0.02em;
-}
-.committee-modal-btn-all:hover {
-  background: oklch(22% .1 295 / 0.9);
-  border-color: oklch(78% .22 320 / 0.5);
-  transform: scale(1.03);
-}
+          <div class="flip-card committee-card-modal relative h-[22rem]" data-committee="harrypotter"
+            style="animation-delay:560ms">
+            <div class="flip-inner relative w-full h-full">
+              <div class="flip-face glass rounded-2xl overflow-hidden">
+                <div class="committee-front-content">
+                  <h3 class="committee-name-only text-neon">Harry Potter</h3><span class="committee-fullform">The Harry
+                    Potter Committee</span>
+                </div>
+              </div>
+              <div class="flip-face flip-back glass-gold rounded-2xl">
+                <div class="committee-agenda-back">
+                  <div class="agenda-label">Agenda</div>
+                  <p class="agenda-text">Classified.</p><button class="view-details-btn-back"
+                    onclick="event.stopPropagation(); openCommitteeModal(this.closest('[data-committee]').getAttribute('data-committee'))">View
+                    Details</button>
+                </div>
+              </div>
+            </div>
+          </div>
 
-/* Prevent body scroll when modal open */
-body.modal-open { overflow: hidden; }
+        </div>
+      </div>
+      </div>
+    </section>
+    <section class="eligibility-section relative px-4 sm:px-6">
+      <div class="eligibility-box"><span class="eligibility-icon">🎓</span>
+        <div class="text-xs uppercase tracking-[0.4em] text-gold mb-4">Eligibility</div>
+        <h2 class="text-neon mb-5">Who Can Participate?</h2>
+        <p>Open to students from <strong style="color:rgba(210,110,245,0.95)">Class 6th through College 3rd
+            Year</strong> — young leaders from across the academic spectrum are welcome to step up and make their voices
+          heard.</p>
+      </div>
+    </section>
+    <section class="relative py-14 px-4 sm:px-6">
+      <div class="max-w-6xl mx-auto">
+        <div class="glass-gold rounded-3xl p-8 sm:p-14 relative overflow-hidden text-center">
+          <div class="absolute -top-32 -right-32 w-96 h-96 rounded-full bg-gold/15 blur-3xl"></div>
+          <div class="absolute -bottom-32 -left-32 w-96 h-96 rounded-full bg-royal/40 blur-3xl"></div>
+          <div class="relative z-10">
+            <div class="text-xs uppercase tracking-[0.4em] text-gold mb-6">Prize Pool</div>
+            <div class="flex items-center justify-center gap-0 mb-10"><span
+                class="text-7xl sm:text-8xl font-display font-bold text-gold">&#8377;</span>
+              <div class="prize-pool-number text-7xl sm:text-8xl font-display text-gradient-gold font-bold tabular-nums"
+                data-target="100000" style="line-height: 1;">0</div><span
+                class="text-6xl sm:text-7xl font-display font-bold text-gold ml-2">+</span>
+            </div>
+            <div class="neon-rule mt-8 mx-auto max-w-md"></div>
+            <p class="max-w-2xl mx-auto text-muted-foreground mt-6 text-sm">Rewards for excellence, innovation, and
+              outstanding performance across all committees.</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-.prize-pool-number{font-variant-numeric:tabular-nums;}
-</style>
+    <section class="relative py-16 px-4 sm:px-6">
+      <div class="max-w-7xl mx-auto">
+        <div class="text-center mb-8">
+          <div class="text-xs uppercase tracking-[0.4em] text-gold mb-4">Section 09</div>
+          <h2 class="text-5xl sm:text-6xl font-display text-neon">Perks of Registering</h2>
+          <p class="text-muted-foreground mt-3 italic font-display">Diplomacy. Beyond Dimensions.</p>
+        </div>
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+          <div
+            class="md:col-span-2 rounded-2xl p-5 transition-all duration-300 hover:-translate-y-1 glass-gold shadow-glow scale-[1.02] border border-purple-glow featured-card"
+            style="animation-delay:0ms;box-shadow:0 0 40px rgba(210,110,245,0.4),0 8px 32px rgba(0,0,0,0.3)">
+            <div
+              class="w-10 h-10 rounded-full flex items-center justify-center font-display mb-3 bg-gradient-to-br from-gold to-gold-glow text-navy-deep">
+              ★</div>
+            <div class="font-medium text-base leading-snug">Custom ID Cards for First 100</div>
+            <div class="mt-2 text-[10px] uppercase tracking-[0.2em] text-gold font-semibold">Limited — First 100 Only
+            </div>
+          </div>
+          <div class="rounded-2xl p-5 transition-all duration-300 hover:-translate-y-1 glass hover:glass-gold"
+            style="animation-delay:0ms">
+            <div class="w-10 h-10 rounded-full flex items-center justify-center font-display mb-3 glass-gold text-gold">
+              01</div>
+            <div class="font-medium text-sm leading-snug">Premium Delegate Kits</div>
+          </div>
+          <div class="rounded-2xl p-5 transition-all duration-300 hover:-translate-y-1 glass hover:glass-gold"
+            style="animation-delay:50ms">
+            <div class="w-10 h-10 rounded-full flex items-center justify-center font-display mb-3 glass-gold text-gold">
+              02</div>
+            <div class="font-medium text-sm leading-snug">Exclusive Cash Prizes</div>
+          </div>
+          <div class="rounded-2xl p-5 transition-all duration-300 hover:-translate-y-1 glass hover:glass-gold"
+            style="animation-delay:100ms">
+            <div class="w-10 h-10 rounded-full flex items-center justify-center font-display mb-3 glass-gold text-gold">
+              03</div>
+            <div class="font-medium text-sm leading-snug">Premium Trophies</div>
+          </div>
+          <div class="rounded-2xl p-5 transition-all duration-300 hover:-translate-y-1 glass hover:glass-gold"
+            style="animation-delay:150ms">
+            <div class="w-10 h-10 rounded-full flex items-center justify-center font-display mb-3 glass-gold text-gold">
+              04</div>
+            <div class="font-medium text-sm leading-snug">Esteemed &amp; Experienced Executive Board</div>
+          </div>
+          <div class="rounded-2xl p-5 transition-all duration-300 hover:-translate-y-1 glass hover:glass-gold"
+            style="animation-delay:200ms">
+            <div class="w-10 h-10 rounded-full flex items-center justify-center font-display mb-3 glass-gold text-gold">
+              05</div>
+            <div class="font-medium text-sm leading-snug">Free Polaroid Keepsake</div>
+          </div>
+          <div class="rounded-2xl p-5 transition-all duration-300 hover:-translate-y-1 glass hover:glass-gold"
+            style="animation-delay:250ms">
+            <div class="w-10 h-10 rounded-full flex items-center justify-center font-display mb-3 glass-gold text-gold">
+              06</div>
+            <div class="font-medium text-sm leading-snug">High-Energy Socials &amp; Networking</div>
+          </div>
+          <div class="rounded-2xl p-5 transition-all duration-300 hover:-translate-y-1 glass hover:glass-gold"
+            style="animation-delay:300ms">
+            <div class="w-10 h-10 rounded-full flex items-center justify-center font-display mb-3 glass-gold text-gold">
+              07</div>
+            <div class="font-medium text-sm leading-snug">Participation Certificates with High-Profile Signatories</div>
+          </div>
+          <div class="rounded-2xl p-5 transition-all duration-300 hover:-translate-y-1 glass hover:glass-gold"
+            style="animation-delay:350ms">
+            <div class="w-10 h-10 rounded-full flex items-center justify-center font-display mb-3 glass-gold text-gold">
+              08</div>
+            <div class="font-medium text-sm leading-snug">Personalised One-on-One Training Sessions</div>
+          </div>
+          <div class="rounded-2xl p-5 transition-all duration-300 hover:-translate-y-1 glass hover:glass-gold"
+            style="animation-delay:400ms">
+            <div class="w-10 h-10 rounded-full flex items-center justify-center font-display mb-3 glass-gold text-gold">
+              09</div>
+            <div class="font-medium text-sm leading-snug">Special Souvenir</div>
+          </div>
+          <div class="rounded-2xl p-5 transition-all duration-300 hover:-translate-y-1 glass hover:glass-gold"
+            style="animation-delay:450ms">
+            <div class="w-10 h-10 rounded-full flex items-center justify-center font-display mb-3 glass-gold text-gold">
+              10</div>
+            <div class="font-medium text-sm leading-snug">Social Media Recognition</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="relative py-16 px-4 sm:px-6 overflow-hidden">
+      <div class="absolute inset-0 bg-grid opacity-30"></div>
+      <div class="absolute inset-0 bg-gradient-to-b from-transparent via-navy-deep/50 to-transparent"></div>
+      <div class="relative max-w-6xl mx-auto">
+        <div class="text-center mb-8">
+          <div class="text-xs uppercase tracking-[0.4em] text-gold mb-4">Special Events</div>
+          <h2 class="text-5xl sm:text-6xl font-display text-neon">Experience the Nights</h2>
+          <p class="text-muted-foreground mt-3 italic font-display">Beyond the committee room.</p>
+        </div>
+        <div class="grid md:grid-cols-2 gap-12 sm:gap-16 max-w-5xl mx-auto">
+          <div class="text-center">
+            <div
+              class="text-4xl sm:text-6xl font-display font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#b78bff] via-[#e879f9] to-[#a855f7] mb-5"
+              style="text-shadow:0 0 18px rgba(210,110,245,0.75),0 0 38px rgba(168,85,247,0.45);">DAY 1</div>
+            <h3 class="text-3xl sm:text-4xl font-display text-gradient-gold mb-3">The 2020 Era</h3>
+            <div class="neon-rule mx-auto w-24 mb-5"></div>
+            <p class="text-lg text-foreground/85 font-display italic">The OG Bollywood Night</p>
+          </div>
+          <div class="text-center">
+            <div
+              class="text-4xl sm:text-6xl font-display font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#b78bff] via-[#e879f9] to-[#a855f7] mb-5"
+              style="text-shadow:0 0 18px rgba(210,110,245,0.75),0 0 38px rgba(168,85,247,0.45);">DAY 2</div>
+            <h3 class="text-3xl sm:text-4xl font-display text-gradient-gold mb-3">Garba</h3>
+            <div class="neon-rule mx-auto w-24 mb-5"></div>
+            <p class="text-lg text-foreground/85 font-display italic">The Festive Spirit</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="relative py-16 px-4 sm:px-6">
+      <div class="max-w-6xl mx-auto">
+        <div class="text-center mb-8">
+          <div class="text-xs uppercase tracking-[0.4em] text-gold mb-4">Section 10</div>
+          <h2 class="text-5xl sm:text-6xl font-display text-neon">Fee Structure</h2>
+          <p class="text-muted-foreground mt-3">Allotment on first-come, first-served basis · non-refundable.</p>
+        </div>
+        <div class="grid md:grid-cols-3 gap-5">
+          <div class="relative glass rounded-3xl p-8 text-center overflow-hidden ">
+            <div class="absolute -top-20 -right-20 w-48 h-48 rounded-full bg-gold/10 blur-3xl"></div>
+            <div class="relative">
+              <div class="text-[10px] uppercase tracking-[0.3em] text-gold mb-3">Delegate Fee</div>
+              <div class="text-5xl font-display font-bold text-gradient-gold mb-4">₹2,100<span
+                  class="text-sm text-muted-foreground font-body ml-1">/-</span></div>
+              <div class="neon-rule mx-auto w-20 mb-4"></div>
+              <div class="text-sm text-foreground/80 mb-2" style="letter-spacing:0.05em">Harry Potter</div>
+              <div class="text-sm text-foreground/80">UNHRC · UNGA · AIPPM · MAHABHARAT</div><a
+                href="index.html#register"
+                class="mt-6 inline-flex px-6 py-2.5 rounded-full bg-gradient-to-r from-gold to-gold-glow text-navy-deep font-semibold hover:scale-105 transition-transform">Register</a>
+            </div>
+          </div>
+          <div class="relative glass rounded-3xl p-8 text-center overflow-hidden glass-gold scale-[1.03] shadow-glow">
+            <div class="absolute -top-20 -right-20 w-48 h-48 rounded-full bg-gold/10 blur-3xl"></div>
+            <div class="relative">
+              <div class="text-[10px] uppercase tracking-[0.3em] text-gold mb-3">Delegate Fee</div>
+              <div class="text-5xl font-display font-bold text-gradient-gold mb-4">₹4,400<span
+                  class="text-sm text-muted-foreground font-body ml-1">/-</span></div>
+              <div class="neon-rule mx-auto w-20 mb-4"></div>
+              <div class="text-sm text-foreground/80">IPL (Only Day 2) — Mega Auction 2026</div><a
+                href="index.html#register"
+                class="mt-6 inline-flex px-6 py-2.5 rounded-full bg-gradient-to-r from-gold to-gold-glow text-navy-deep font-semibold hover:scale-105 transition-transform">Register</a>
+            </div>
+          </div>
+          <div class="relative glass rounded-3xl p-8 text-center overflow-hidden ">
+            <div class="absolute -top-20 -right-20 w-48 h-48 rounded-full bg-gold/10 blur-3xl"></div>
+            <div class="relative">
+              <div class="text-[10px] uppercase tracking-[0.3em] text-gold mb-3">Delegate Fee</div>
+              <div class="text-5xl font-display font-bold text-gradient-gold mb-4">₹2,000<span
+                  class="text-sm text-muted-foreground font-body ml-1">/-</span></div>
+              <div class="neon-rule mx-auto w-20 mb-4"></div>
+              <div class="text-sm text-foreground/80">IPC — International Press Corps</div><a href="index.html#register"
+                class="mt-6 inline-flex px-6 py-2.5 rounded-full bg-gradient-to-r from-gold to-gold-glow text-navy-deep font-semibold hover:scale-105 transition-transform">Register</a>
+            </div>
+          </div>
+        </div>
+        <p class="text-xs text-muted-foreground text-center mt-8 max-w-2xl mx-auto">Portfolios are allotted within one
+          week of form submission, based on delegate experience. Once submitted, the delegate fee shall be
+          non-refundable.</p>
+        <div class="important-note-box">
+          <div class="important-note-icon">ℹ️</div>
+          <div>
+            <div class="important-note-title">Important Note</div>
+            <div class="important-note-text">Portfolio will be allotted within one week of form submission. All details
+              submitted by the delegate must be accurate and confirmed. The organizing team will not be responsible for
+              incorrect information provided by the delegate.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="register" class="relative py-16 px-4 sm:px-6">
+      <div class="max-w-6xl mx-auto">
+        <div class="text-center mb-8">
+          <div class="text-xs uppercase tracking-[0.4em] text-gold mb-4">Section 11</div>
+          <h2 class="text-5xl sm:text-6xl font-display text-neon">Application Forms</h2>
+          <div class="brochure-btn-wrap mt-6"><a
+              href="https://drive.google.com/file/d/18BoQviqBUpwwfJm55E8P1SJ0AfpLVWRl/view?usp=drivesdk" target="_blank"
+              rel="noreferrer noopener" id="brochure-download-btn"
+              class="brochure-btn"><!-- TO UPDATE: Change BROCHURE_LINK_HERE to the actual brochure URL in both this line and the card below --><svg
+                viewBox="0 0 24 24" fill="none" stroke-width="2" aria-hidden="true">
+                <path d="M12 16l-4-4h3V4h2v8h3l-4 4z" />
+                <path d="M4 20h16" stroke-linecap="round" />
+              </svg>Download Brochure</a></div>
+        </div>
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-4"><a href="https://forms.gle/QDkS2C1qpF2gxE149" target="_blank"
+            rel="noreferrer"
+            class="group relative overflow-hidden glass rounded-2xl p-6 flex items-center gap-4 hover:scale-[1.02] transition-transform">
+            <div
+              class="absolute inset-0 bg-gradient-to-br from-gold/0 via-gold/0 to-gold/25 opacity-0 group-hover:opacity-100 transition-opacity">
+            </div>
+            <div class="relative w-12 h-12 rounded-xl glass-gold flex items-center justify-center text-xl text-gold">✍
+            </div>
+            <div class="relative flex-1">
+              <div class="font-medium">Delegate Registration</div>
+              <div class="text-xs text-muted-foreground">Open →</div>
+            </div>
+          </a><a href="https://forms.gle/s1444mzwMcpc8cCt8" target="_blank" rel="noreferrer"
+            class="group relative overflow-hidden glass rounded-2xl p-6 flex items-center gap-4 hover:scale-[1.02] transition-transform">
+            <div
+              class="absolute inset-0 bg-gradient-to-br from-gold/0 via-gold/0 to-gold/25 opacity-0 group-hover:opacity-100 transition-opacity">
+            </div>
+            <div class="relative w-12 h-12 rounded-xl glass-gold flex items-center justify-center text-xl text-gold">✦
+            </div>
+            <div class="relative flex-1">
+              <div class="font-medium">IPL Registration</div>
+              <div class="text-xs text-muted-foreground">Open →</div>
+            </div>
+          </a><a
+            href="https://docs.google.com/spreadsheets/d/1bq_8aWnXOlfz84d_fFsVXcyZl83zTbVMy1SaA7z2uTk/edit?usp=drivesdk"
+            target="_blank" rel="noopener noreferrer"
+            class="group relative overflow-hidden glass rounded-2xl p-6 flex items-center gap-4 hover:scale-[1.02] transition-transform">
+            <div
+              class="absolute inset-0 bg-gradient-to-br from-gold/0 via-gold/0 to-gold/25 opacity-0 group-hover:opacity-100 transition-opacity">
+            </div>
+            <div class="relative w-12 h-12 rounded-xl glass-gold flex items-center justify-center text-xl text-gold">◎
+            </div>
+            <div class="relative flex-1">
+              <div class="font-medium">Public Eye Matrix</div>
+              <div class="text-xs text-muted-foreground">Open →</div>
+            </div>
+          </a><a href="https://instagram.com/trikaya_mun" target="_blank" rel="noreferrer"
+            class="group relative overflow-hidden glass rounded-2xl p-6 flex items-center gap-4 hover:scale-[1.02] transition-transform">
+            <div
+              class="absolute inset-0 bg-gradient-to-br from-gold/0 via-gold/0 to-gold/25 opacity-0 group-hover:opacity-100 transition-opacity">
+            </div>
+            <div class="relative w-12 h-12 rounded-xl glass-gold flex items-center justify-center text-xl text-gold">❍
+            </div>
+            <div class="relative flex-1">
+              <div class="font-medium">Instagram · @trikaya_mun</div>
+              <div class="text-xs text-muted-foreground">Open →</div>
+            </div>
+          </a><a href="https://drive.google.com/file/d/18BoQviqBUpwwfJm55E8P1SJ0AfpLVWRl/view?usp=drivesdk"
+            target="_blank" rel="noreferrer noopener"
+            class="group relative overflow-hidden glass rounded-2xl p-6 flex items-center gap-4 hover:scale-[1.02] transition-transform"
+            id="brochure-download-link">
+            <div
+              class="absolute inset-0 bg-gradient-to-br from-gold/0 via-gold/0 to-gold/25 opacity-0 group-hover:opacity-100 transition-opacity">
+            </div>
+            <div class="relative w-12 h-12 rounded-xl glass-gold flex items-center justify-center text-xl text-gold">⬇
+            </div>
+            <div class="relative flex-1">
+              <div class="font-medium">Download Brochure</div>
+              <div class="text-xs text-muted-foreground">Open →</div>
+            </div>
+          </a><a href="https://docs.google.com/forms/d/1fTif12BZj6L5HfD26ZRRZXjfKyGy9rN_M4kEzEcBcvE/viewform"
+            target="_blank" rel="noopener noreferrer"
+            class="group relative overflow-hidden glass rounded-2xl p-6 flex items-center gap-4 hover:scale-[1.02] transition-transform">
+            <div
+              class="absolute inset-0 bg-gradient-to-br from-gold/0 via-gold/0 to-gold/25 opacity-0 group-hover:opacity-100 transition-opacity">
+            </div>
+            <div
+              class="relative w-12 h-12 rounded-xl glass-gold flex items-center justify-center text-sm font-semibold tracking-wide text-gold">
+              ID</div>
+            <div class="relative flex-1">
+              <div class="font-medium">Custom ID Cards Form</div>
+              <div class="text-xs text-muted-foreground">Open →</div>
+            </div>
+          </a></div>
+      </div>
+    </section>
+    <section id="contact" class="relative py-16 px-4 sm:px-6">
+      <div class="max-w-6xl mx-auto">
+        <div class="text-center mb-8">
+          <div class="text-xs uppercase tracking-[0.4em] text-gold mb-4">Section 12</div>
+          <h2 class="text-5xl sm:text-6xl font-display text-neon">Feedback / Suggestions / Queries</h2>
+          <p class="text-muted-foreground mt-3">Share your feedback, suggestions, or general queries — we'd love to hear
+            from you.</p>
+        </div>
+        <div class="grid lg:grid-cols-5 gap-6">
+          <div class="lg:col-span-2 space-y-4"><a href="https://instagram.com/trikaya_mun"
+              class="block glass rounded-2xl p-5 hover:glass-gold transition-all">
+              <div class="text-[10px] uppercase tracking-[0.3em] text-gold mb-1">Instagram</div>
+              <div class="font-display text-lg">@trikaya_mun</div>
+            </a><a href="mailto:trikayamun@gmail.com"
+              class="block glass rounded-2xl p-5 hover:glass-gold transition-all">
+              <div class="text-[10px] uppercase tracking-[0.3em] text-gold mb-1">Email</div>
+              <div class="font-display text-lg">trikayamun@gmail.com</div>
+            </a><a href="tel:+918882493831" class="block glass rounded-2xl p-5 hover:glass-gold transition-all">
+              <div class="text-[10px] uppercase tracking-[0.3em] text-gold mb-1">Founder · Vansh Gupta</div>
+              <div class="font-display text-lg">+91 88824 93831</div>
+            </a><a href="tel:+919311067925" class="block glass rounded-2xl p-5 hover:glass-gold transition-all">
+              <div class="text-[10px] uppercase tracking-[0.3em] text-gold mb-1">CO · FOUNDER - ANVI AGGARWAL</div>
+              <div class="font-display text-lg">+91 93110 67925</div>
+            </a><a href="tel:+918810355694" class="block glass rounded-2xl p-5 hover:glass-gold transition-all">
+              <div class="text-[10px] uppercase tracking-[0.3em] text-gold mb-1">COO · Aarav Goel</div>
+              <div class="font-display text-lg">+91 88103 55694</div>
+            </a></div>
+          <form class="lg:col-span-3 glass rounded-3xl p-8 space-y-5 flex flex-col" id="feedback-query-form" novalidate>
+            <div class="grid sm:grid-cols-2 gap-5">
+              <div class="feedback-form-field"><label for="fq-name">Full Name</label><input type="text" id="fq-name"
+                  name="name" required placeholder="Your full name" autocomplete="name" /></div>
+              <div class="feedback-form-field"><label for="fq-email">Email Address</label><input type="email"
+                  id="fq-email" name="email" required placeholder="your@email.com" autocomplete="email" /></div>
+            </div>
+            <div class="grid sm:grid-cols-2 gap-5">
+              <div class="feedback-form-field"><label for="fq-phone">Phone Number <span
+                    style="opacity:0.5;font-size:0.8em">(Optional)</span></label><input type="tel" id="fq-phone"
+                  name="phone" placeholder="+91 98765 43210" autocomplete="tel" /></div>
+              <div class="feedback-form-field"><label for="fq-subject">Subject</label><input type="text" id="fq-subject"
+                  name="subject" required placeholder="Feedback / Suggestion / Query" /></div>
+            </div>
+            <div class="feedback-form-field"><label for="fq-message">Message</label><textarea id="fq-message"
+                name="message" rows="4" required placeholder="Share your feedback, suggestion, or ask us anything..."
+                style="resize:none"></textarea></div>
+            <button type="submit"
+              class="w-full sm:w-auto px-8 py-3 rounded-full bg-gradient-to-r from-gold to-gold-glow text-navy-deep font-semibold hover:scale-[1.02] transition-transform mt-auto"
+              id="fq-submit-btn">Send Message</button>
+            <div id="fq-status"
+              style="display:none;padding:0.75rem 1rem;border-radius:10px;font-size:0.9rem;margin-top:0.5rem"></div>
+          </form>
+          <script>
+            (function () {
+              var form = document.getElementById('feedback-query-form');
+              if (!form) return;
+              form.addEventListener('submit', function (e) {
+                e.preventDefault();
+                var nameEl = document.getElementById('fq-name');
+                var emailEl = document.getElementById('fq-email');
+                var phoneEl = document.getElementById('fq-phone');
+                var subjectEl = document.getElementById('fq-subject');
+                var msgEl = document.getElementById('fq-message');
+                var st = document.getElementById('fq-status');
+                var errs = [];
+                if (!nameEl.value.trim() || nameEl.value.trim().length < 2) errs.push('Please enter your full name.');
+                if (!emailEl.value.trim() || !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(emailEl.value.trim())) errs.push('Please enter a valid email address.');
+                if (!subjectEl.value.trim()) errs.push('Please enter a subject.');
+                if (!msgEl.value.trim() || msgEl.value.trim().length < 5) errs.push('Please enter your message.');
+                if (errs.length) {
+                  st.style.display = 'block';
+                  st.style.background = 'rgba(200,60,60,0.15)';
+                  st.style.border = '1px solid rgba(200,60,60,0.4)';
+                  st.style.color = 'rgba(255,150,150,1)';
+                  st.innerHTML = errs.join('<br>');
+                  return false;
+                }
+                st.style.display = 'none';
+                var name = nameEl.value.trim();
+                var email = emailEl.value.trim();
+                var phone = phoneEl.value.trim() || 'Not provided';
+                var subject = subjectEl.value.trim();
+                var message = msgEl.value.trim();
+                var mailSubject = encodeURIComponent('Feedback - ' + subject);
+                var mailBody = encodeURIComponent(
+                  'New Feedback Submission\n\n' +
+                  'Full Name:\n' + name + '\n\n' +
+                  'Email:\n' + email + '\n\n' +
+                  'Phone Number:\n' + phone + '\n\n' +
+                  'Subject:\n' + subject + '\n\n' +
+                  'Message:\n' + message + '\n\n' +
+                  '--------------------------------\n' +
+                  'Submitted from the TRIKAYA MUN 2026 website.'
+                );
+                window.location.href = 'mailto:trikayamun@gmail.com?subject=' + mailSubject + '&body=' + mailBody;
+                st.style.display = 'block';
+                st.style.background = 'rgba(50,200,100,0.12)';
+                st.style.border = '1px solid rgba(50,200,100,0.4)';
+                st.style.color = 'rgba(100,220,140,1)';
+                st.innerHTML = '\u2713 Opening your email client…';
+                form.reset();
+              });
+            })();
+          </script>
+        </div>
+      </div>
+    </section>
+    <footer class="relative border-t border-border/50 py-12 px-4 sm:px-6 mt-10">
+      <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
+        <div class="flex items-center gap-3">
+          <div class="font-display text-xl text-neon tracking-[0.3em]">TRIKAYA MUN</div><span
+            class="text-xs text-muted-foreground hidden sm:inline">· Diplomacy. Beyond. Dimensions.</span>
+        </div>
+        <div class="text-xs text-muted-foreground">© 2026 TRIKAYA MUN · All rights reserved.</div>
+        <div class="flex gap-4 text-xs text-muted-foreground"><a href="index.html#vision"
+            class="hover:text-gold">Vision</a><a href="index.html#committees" class="hover:text-gold">Committees</a><a
+            href="index.html#contact" class="hover:text-gold">Contact</a></div>
+      </div>
+    </footer>
+  </main>
+  <script>(function (t) { let s; try { s = JSON.parse(sessionStorage.getItem(t.storageKey) || "{}") } catch (e) { console.error(e); return } const c = t.key || window.history.state?.__TSR_key, r = c ? s[c] : void 0; if (t.shouldScrollRestoration && r && typeof r == "object" && Object.keys(r).length > 0) { for (const e in r) { const o = r[e]; if (!o || typeof o != "object") continue; const l = o.scrollX, i = o.scrollY; if (!(!Number.isFinite(l) || !Number.isFinite(i))) { if (e === "window") window.scrollTo({ top: i, left: l, behavior: t.behavior }); else if (e) { let n; try { n = document.querySelector(e) } catch { continue } n && (n.scrollLeft = l, n.scrollTop = i) } } } return } const a = window.location.hash.split("#", 2)[1]; if (a) { const e = window.history.state?.__hashScrollIntoViewOptions ?? !0; if (e) { const o = document.getElementById(a); o && o.scrollIntoView(e) } return } window.scrollTo({ top: 0, left: 0, behavior: t.behavior }) })({ "storageKey": "tsr-scroll-restoration-v1_3", "shouldScrollRestoration": true }); document.currentScript.remove()</script>
+  <!--/$--><a href="index.html#register"
+    class="fixed bottom-5 right-5 z-40 inline-flex items-center gap-2 px-5 py-3 rounded-full bg-gradient-to-r from-gold to-gold-glow text-navy-deep font-semibold shadow-gold animate-glow-pulse hover:scale-105 transition-transform"><span>Register</span><svg
+      width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+      <path d="M5 12h14M13 6l6 6-6 6"></path>
+    </svg></a>
+  <script class="$tsr"
+    id="$tsr-stream-barrier">(self.$R = self.$R || {})["tsr"] = []; self.$_TSR = { h() { this.hydrated = !0, this.c() }, e() { this.streamEnded = !0, this.c() }, c() { this.hydrated && this.streamEnded && (delete self.$_TSR, delete self.$R.tsr) }, p(e) { this.initialized ? e() : this.buffer.push(e) }, buffer: [] }; $_TSR.router = ($R => $R[0] = { manifest: $R[1] = { routes: $R[2] = { __root__: $R[3] = { preloads: $R[4] = ["/assets/index-DvNqnX8X.js"], assets: $R[5] = [$R[6] = { tag: "script", attrs: $R[7] = { type: "module", async: !0 }, children: "import(\"/assets/index-DvNqnX8X.js\")" }] }, "/": $R[8] = { preloads: $R[9] = ["/assets/index-DJBMxWqs.js"] } } }, matches: $R[10] = [$R[11] = { i: "__root__ ", u: 1782548192973, s: "success", ssr: !0 }, $R[12] = { i: "  ", u: 1782548192973, s: "success", ssr: !0 }], lastMatchId: "  " })($R["tsr"]); $_TSR.e(); document.currentScript.remove()</script>
 
-<script>
-(function() {
-  // Committee data
-  var COMMITTEES = {
-    unhrc: {
-      id: "unhrc",
-      name: "UNHRC",
-      level: "ADVANCED · COMMITTEE",
-      fullName: "United Nations Human Rights Council",
-      tagline: "Rights in the Age of Algorithms",
-      agenda: "Deliberation upon Strengthening the International Mechanisms to Combat Systemic Discrimination and Ensure Accountability for Human Rights Violations, with Special Emphasis on the Rohingya Crisis in Myanmar",
-      overview: "The UNHRC convenes to address the most pressing intersection of human rights and technology — where AI, surveillance, and autonomous warfare collide with the dignity of the individual. Delegates will craft frameworks that balance innovation with accountability.",
-      board: "Announcements forthcoming. The TRIKAYA Secretariat is curating an experienced board for UNHRC.",
-      resources: ["Background Guide (releasing soon)", "Rules of Procedure", "Country Matrix"]
-    },
-    unga: {
-      id: "unga",
-      name: "UNGA",
-      level: "INTERMEDIATE · COMMITTEE",
-      fullName: "United Nations General Assembly",
-      tagline: "Voices for the Voiceless",
-      agenda: "Deliberation on the regulation of Artificial Intelligence in military and surveillance systems, with special emphasis on responsible governance of cyberspace and strengthening global mechanisms against cyber warfare.",
-      overview: "The world's largest deliberative body takes on systemic injustice. Delegates from every region negotiate accountability, refugee protection, and the durable mechanisms required to address one of the gravest humanitarian crises of our time.",
-      board: "Announcements forthcoming. The TRIKAYA Secretariat is curating an experienced board for UNGA.",
-      resources: ["Background Guide (releasing soon)", "Rules of Procedure", "Country Matrix"]
-    },
-    aippm: {
-      id: "aippm",
-      name: "AIPPM",
-      level: "INTERMEDIATE · COMMITTEE",
-      fullName: "All India Political Parties Meet",
-      tagline: "The Floor of Indian Democracy",
-      agenda: "Deliberation on the Role of UGC in Higher Education Reforms with Special Reference to Budgetary Allocations and NEP 2020",
-      overview: "Across the political spectrum, India debates its conscience. The AIPPM brings together every party voice to confront how the Republic responds to discrimination, refugees, and international accountability.",
-      board: "Announcements forthcoming. The TRIKAYA Secretariat is curating an experienced board for AIPPM.",
-      resources: ["Background Guide (releasing soon)", "Rules of Procedure", "Country Matrix"]
-    },
-    ipc: {
-      id: "ipc",
-      name: "IPC",
-      level: "SPECIALISED · COMMITTEE",
-      fullName: "International Press Corps",
-      tagline: "The Fourth Estate at Work",
-      agenda: "Journalist, Caricaturist and Photographer Committee.",
-      overview: "Behind every headline is a witness. IPC delegates serve as journalists, Caricaturist and photographers — covering committees in real time, breaking news, photo essays, and the editorials that shape the conference narrative.",
-      board: "Announcements forthcoming. The TRIKAYA Secretariat is curating an experienced board for IPC.",
-      resources: ["Background Guide (releasing soon)", "Rules of Procedure", "Country Matrix"]
-    },
-    ipl: {
-      id: "ipl",
-      name: "IPL",
-      level: "BEGINNER · COMMITTEE",
-      fullName: "Indian Premier League — Mega Auction (only Day 2)",
-      tagline: "Bid. Strategise. Dominate.",
-      agenda: "Mega Auction 2026.",
-      overview: "The boardroom replaces the boundary rope. Franchise owners, team managers, and analysts negotiate purse strategy, player valuations, and the high-stakes drama of the Mega Auction.",
-      board: "Announcements forthcoming. The TRIKAYA Secretariat is curating an experienced board for IPL.",
-      resources: ["Background Guide (releasing soon)", "Rules of Procedure", "Country Matrix"]
-    },
-    harrypotter: {
-      id: "harrypotter",
-      name: "Harry Potter",
-      level: "SPECIALISED · COMMITTEE",
-      fullName: "The Harry Potter Committee",
-      tagline: "Mischief Managed.",
-      agenda: "Classified.",
-      overview: "A committee shrouded in secrecy. The agenda will be revealed only to those who accept the call. Expect intrigue, alliances, and crisis updates from the wizarding world.",
-      board: "Announcements forthcoming. The TRIKAYA Secretariat is curating an experienced board for Harry Potter.",
-      resources: ["Background Guide (releasing soon)", "Rules of Procedure", "Country Matrix"]
-    },
-    mahabharat: {
-      id: "mahabharat",
-      name: "Mahabharat",
-      level: "ADVANCED · COMMITTEE",
-      fullName: "Mahabharat",
-      tagline: "Yudh Ka Aadhaar",
-      agenda: "Yudh Ka Aadhaar: Dharm Ya Rajya Ki Lalasa?",
-      overview: "The Kurukshetra of conscience. Delegates assume the great roles of the epic to weigh dharma against ambition, kinship against kingdom — a committee conducted in Hindi and bilingual delivery.",
-      board: "Announcements forthcoming. The TRIKAYA Secretariat is curating an experienced board for Mahabharat.",
-      resources: ["Background Guide (releasing soon)", "Rules of Procedure", "Country Matrix"]
+  <script>
+      (function () {
+        var target = new Date("2026-10-24T09:00:00+05:30").getTime();
+        function pad(n) { return String(n).padStart(2, "0"); }
+        function tick() {
+          var t = Math.max(0, target - Date.now());
+          var map = { Days: pad(Math.floor(t / 864e5)), Hours: pad(Math.floor(t / 36e5 % 24)), Minutes: pad(Math.floor(t / 6e4 % 60)), Seconds: pad(Math.floor(t / 1e3 % 60)) };
+          document.querySelectorAll(".tabular-nums").forEach(function (v) { var l = v.nextElementSibling; if (!l) return; var k = l.textContent.trim(); if (map[k] !== undefined) v.textContent = map[k]; });
+        }
+        var counters = { Committees: "7", "Conference Days": "2", "Diplomatic Spirit": "100%" };
+        document.querySelectorAll(".tabular-nums").forEach(function (v) { var l = v.nextElementSibling; if (!l) return; var k = l.textContent.trim(); if (counters[k] !== undefined) v.textContent = counters[k]; });
+        tick(); setInterval(tick, 1000);
+        var bar = document.querySelector(".fixed.top-0 .bg-gradient-to-r");
+        window.addEventListener("scroll", function () { if (!bar) return; var h = document.documentElement; var p = h.scrollTop / (h.scrollHeight - h.clientHeight) * 100; bar.style.width = p + "%"; }, { passive: true });
+      })();
+  </script>
+  <!-- COMMITTEE MODAL SYSTEM -->
+  <div id="committee-modal-overlay" class="committee-modal-overlay" aria-modal="true" role="dialog" aria-hidden="true">
+    <div class="committee-modal-container" id="committee-modal-container">
+      <!-- Close button -->
+      <button class="committee-modal-close" id="modal-close-x" aria-label="Close modal">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <path d="M18 6L6 18M6 6l12 12" />
+        </svg>
+      </button>
+      <!-- Header -->
+      <div class="committee-modal-header">
+        <div class="committee-modal-eyebrow" id="modal-eyebrow">ADVANCED · COMMITTEE</div>
+        <h2 class="committee-modal-title" id="modal-title">UNHRC</h2>
+        <div class="committee-modal-subtitle" id="modal-subtitle">United Nations Human Rights Council</div>
+        <div class="committee-modal-tagline" id="modal-tagline">Rights in the Age of Algorithms</div>
+      </div>
+      <!-- 2x2 Info Grid -->
+      <div class="committee-modal-grid">
+        <div class="committee-modal-card">
+          <div class="committee-modal-card-label">AGENDA</div>
+          <p class="committee-modal-card-text" id="modal-agenda">—</p>
+        </div>
+        <div class="committee-modal-card">
+          <div class="committee-modal-card-label">OVERVIEW</div>
+          <p class="committee-modal-card-text" id="modal-overview">—</p>
+        </div>
+        <div class="committee-modal-card">
+          <div class="committee-modal-card-label">EXECUTIVE BOARD</div>
+          <p class="committee-modal-card-text" id="modal-board">—</p>
+        </div>
+        <div class="committee-modal-card">
+          <div class="committee-modal-card-label">RESOURCES</div>
+          <ul class="committee-modal-resources" id="modal-resources"></ul>
+        </div>
+      </div>
+      <!-- Footer Buttons -->
+      <div class="committee-modal-footer">
+        <button class="committee-modal-btn-register" id="modal-register-btn">Register for UNHRC</button>
+        <button class="committee-modal-btn-all" id="modal-close-all">All Committees</button>
+      </div>
+    </div>
+  </div>
+
+  <style>
+    /* ===== COMMITTEE HOVER OVERLAY ===== */
+    .view-details-btn-back {
+      cursor: pointer;
+      padding: 0.55rem 1.6rem;
+      border-radius: 9999px;
+      font-size: 0.82rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: oklch(8% .04 295);
+      background: linear-gradient(135deg, oklch(86% .18 330), oklch(62% .24 310));
+      border: none;
+      box-shadow: 0 0 22px oklch(78% .22 320 / 0.55), 0 4px 14px rgba(0, 0, 0, 0.4);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      font-family: var(--font-body);
     }
-  };
 
-  var overlay = document.getElementById("committee-modal-overlay");
-  var registerBtn = document.getElementById("modal-register-btn");
-  var closeAll = document.getElementById("modal-close-all");
-  var closeX = document.getElementById("modal-close-x");
+    .view-details-btn-back:hover {
+      transform: scale(1.06);
+      box-shadow: 0 0 36px oklch(78% .22 320 / 0.75), 0 6px 20px rgba(0, 0, 0, 0.5);
+    }
 
-  function openModal(id) {
-    var c = COMMITTEES[id];
-    if (!c) return;
+    /* ===== MODAL OVERLAY ===== */
+    .committee-modal-overlay {
+      position: fixed;
+      inset: 0;
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1rem;
+      background: rgba(4, 2, 12, 0.82);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+      overflow-y: auto;
+    }
 
-    // Populate
-    document.getElementById("modal-eyebrow").textContent = c.level;
-    document.getElementById("modal-title").textContent = c.name;
-    document.getElementById("modal-subtitle").textContent = c.fullName;
-    document.getElementById("modal-tagline").textContent = c.tagline;
-    document.getElementById("modal-agenda").textContent = c.agenda;
-    document.getElementById("modal-overview").textContent = c.overview;
-    document.getElementById("modal-board").textContent = c.board;
-    registerBtn.textContent = "Register for " + c.name;
+    .committee-modal-overlay.is-open {
+      opacity: 1;
+      pointer-events: auto;
+    }
 
-    var resList = document.getElementById("modal-resources");
-    resList.innerHTML = "";
-    c.resources.forEach(function(r) {
-      var li = document.createElement("li");
-      li.textContent = r;
-      resList.appendChild(li);
+    .committee-modal-container {
+      position: relative;
+      width: 100%;
+      max-width: 860px;
+      max-height: 92vh;
+      overflow-y: auto;
+      border-radius: 24px;
+      background: linear-gradient(155deg, oklch(13% .07 300) 0%, oklch(9% .05 295) 50%, oklch(11% .09 305) 100%);
+      border: 1px solid oklch(78% .22 320 / 0.22);
+      box-shadow:
+        0 0 0 1px oklch(78% .22 320 / 0.08) inset,
+        0 30px 80px -20px rgba(0, 0, 0, 0.8),
+        0 0 80px oklch(78% .22 320 / 0.12);
+      padding: 2.5rem 2rem 2rem;
+      transform: translateY(28px) scale(0.97);
+      transition: transform 0.38s cubic-bezier(0.22, 1, 0.36, 1);
+      scrollbar-width: thin;
+      scrollbar-color: oklch(78% .22 320 / 0.2) transparent;
+    }
+
+    .committee-modal-overlay.is-open .committee-modal-container {
+      transform: translateY(0) scale(1);
+    }
+
+    /* Scrollbar */
+    .committee-modal-container::-webkit-scrollbar {
+      width: 4px;
+    }
+
+    .committee-modal-container::-webkit-scrollbar-track {
+      background: transparent;
+    }
+
+    .committee-modal-container::-webkit-scrollbar-thumb {
+      background: oklch(78% .22 320 / 0.3);
+      border-radius: 4px;
+    }
+
+    /* Close X */
+    .committee-modal-close {
+      position: absolute;
+      top: 1.1rem;
+      right: 1.25rem;
+      background: oklch(100% 0 0 / 0.07);
+      border: 1px solid oklch(78% .22 320 / 0.18);
+      border-radius: 50%;
+      width: 2.1rem;
+      height: 2.1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      color: oklch(72% .05 320);
+      transition: background 0.2s, color 0.2s, transform 0.2s;
+    }
+
+    .committee-modal-close:hover {
+      background: oklch(78% .22 320 / 0.15);
+      color: oklch(96% .02 320);
+      transform: rotate(90deg);
+    }
+
+    /* Header */
+    .committee-modal-header {
+      text-align: center;
+      margin-bottom: 2rem;
+      padding-bottom: 1.6rem;
+      border-bottom: 1px solid oklch(78% .22 320 / 0.14);
+    }
+
+    .committee-modal-eyebrow {
+      font-size: 0.65rem;
+      letter-spacing: 0.35em;
+      text-transform: uppercase;
+      color: oklch(78% .22 320);
+      margin-bottom: 0.7rem;
+      font-family: var(--font-body);
+      font-weight: 500;
+    }
+
+    .committee-modal-title {
+      font-family: var(--font-display);
+      font-size: clamp(2.4rem, 6vw, 3.8rem);
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      line-height: 1;
+      color: oklch(95% .12 325);
+      text-shadow:
+        0 0 6px oklch(86% .22 320 / 0.9),
+        0 0 22px oklch(78% .22 320 / 0.65),
+        0 0 50px oklch(62% .24 310 / 0.5);
+      margin-bottom: 0.5rem;
+    }
+
+    .committee-modal-subtitle {
+      font-family: var(--font-body);
+      font-size: 0.95rem;
+      color: oklch(72% .05 320);
+      margin-bottom: 0.55rem;
+      letter-spacing: 0.02em;
+    }
+
+    .committee-modal-tagline {
+      font-style: italic;
+      font-size: 1rem;
+      color: oklch(80% .14 340);
+      font-family: var(--font-display);
+      letter-spacing: 0.01em;
+    }
+
+    /* 2x2 Info Grid */
+    .committee-modal-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+      margin-bottom: 1.75rem;
+    }
+
+    @media (max-width: 540px) {
+      .committee-modal-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .committee-modal-card {
+      background: linear-gradient(135deg, oklch(17% .08 300 / 0.85), oklch(14% .06 295 / 0.85));
+      border: 1px solid oklch(78% .22 320 / 0.15);
+      border-radius: 14px;
+      padding: 1.2rem 1.25rem;
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+
+    .committee-modal-card:hover {
+      border-color: oklch(78% .22 320 / 0.28);
+      box-shadow: 0 0 20px oklch(78% .22 320 / 0.07);
+    }
+
+    .committee-modal-card-label {
+      font-size: 0.6rem;
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+      font-weight: 600;
+      color: oklch(78% .22 320);
+      margin-bottom: 0.6rem;
+      font-family: var(--font-body);
+    }
+
+    .committee-modal-card-text {
+      font-size: 0.875rem;
+      line-height: 1.65;
+      color: oklch(88% .03 320);
+      font-family: var(--font-body);
+    }
+
+    .committee-modal-resources {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 0.35rem;
+    }
+
+    .committee-modal-resources li {
+      font-size: 0.875rem;
+      color: oklch(88% .03 320);
+      padding-left: 1.1rem;
+      position: relative;
+      line-height: 1.5;
+    }
+
+    .committee-modal-resources li::before {
+      content: "›";
+      position: absolute;
+      left: 0;
+      color: oklch(78% .22 320);
+      font-weight: 700;
+    }
+
+    /* Footer */
+    .committee-modal-footer {
+      display: flex;
+      gap: 0.85rem;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .committee-modal-btn-register {
+      cursor: pointer;
+      padding: 0.7rem 2rem;
+      border-radius: 9999px;
+      font-family: var(--font-body);
+      font-size: 0.9rem;
+      font-weight: 700;
+      color: oklch(8% .04 295);
+      background: linear-gradient(135deg, oklch(86% .18 330), oklch(62% .24 310));
+      border: none;
+      box-shadow:
+        0 0 28px oklch(78% .22 320 / 0.55),
+        0 4px 16px rgba(0, 0, 0, 0.35);
+      transition: transform 0.2s, box-shadow 0.2s;
+      letter-spacing: 0.02em;
+    }
+
+    .committee-modal-btn-register:hover {
+      transform: scale(1.04);
+      box-shadow: 0 0 44px oklch(78% .22 320 / 0.75), 0 6px 22px rgba(0, 0, 0, 0.45);
+    }
+
+    .committee-modal-btn-all {
+      cursor: pointer;
+      padding: 0.7rem 2rem;
+      border-radius: 9999px;
+      font-family: var(--font-body);
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: oklch(96% .02 320);
+      background: oklch(18% .08 295 / 0.8);
+      border: 1px solid oklch(78% .22 320 / 0.3);
+      backdrop-filter: blur(8px);
+      transition: background 0.2s, border-color 0.2s, transform 0.2s;
+      letter-spacing: 0.02em;
+    }
+
+    .committee-modal-btn-all:hover {
+      background: oklch(22% .1 295 / 0.9);
+      border-color: oklch(78% .22 320 / 0.5);
+      transform: scale(1.03);
+    }
+
+    /* Prevent body scroll when modal open */
+    body.modal-open {
+      overflow: hidden;
+    }
+
+    .prize-pool-number {
+      font-variant-numeric: tabular-nums;
+    }
+  </style>
+
+  <script>
+    (function () {
+      // Committee data
+      var COMMITTEES = {
+        unhrc: {
+          id: "unhrc",
+          name: "UNHRC",
+          level: "ADVANCED · COMMITTEE",
+          fullName: "United Nations Human Rights Council",
+          tagline: "Rights in the Age of Algorithms",
+          agenda: "Deliberation upon Strengthening the International Mechanisms to Combat Systemic Discrimination and Ensure Accountability for Human Rights Violations, with Special Emphasis on the Rohingya Crisis in Myanmar",
+          overview: "The UNHRC convenes to address the most pressing intersection of human rights and technology — where AI, surveillance, and autonomous warfare collide with the dignity of the individual. Delegates will craft frameworks that balance innovation with accountability.",
+          board: "Announcements forthcoming. The TRIKAYA Secretariat is curating an experienced board for UNHRC.",
+          resources: ["Background Guide (releasing soon)", "Rules of Procedure", "Country Matrix"]
+        },
+        unga: {
+          id: "unga",
+          name: "UNGA",
+          level: "INTERMEDIATE · COMMITTEE",
+          fullName: "United Nations General Assembly",
+          tagline: "Voices for the Voiceless",
+          agenda: "Deliberation on the regulation of Artificial Intelligence in military and surveillance systems, with special emphasis on responsible governance of cyberspace and strengthening global mechanisms against cyber warfare.",
+          overview: "The world's largest deliberative body takes on systemic injustice. Delegates from every region negotiate accountability, refugee protection, and the durable mechanisms required to address one of the gravest humanitarian crises of our time.",
+          board: "Announcements forthcoming. The TRIKAYA Secretariat is curating an experienced board for UNGA.",
+          resources: ["Background Guide (releasing soon)", "Rules of Procedure", "Country Matrix"]
+        },
+        aippm: {
+          id: "aippm",
+          name: "AIPPM",
+          level: "INTERMEDIATE · COMMITTEE",
+          fullName: "All India Political Parties Meet",
+          tagline: "The Floor of Indian Democracy",
+          agenda: "Deliberation on the Role of UGC in Higher Education Reforms with Special Reference to Budgetary Allocations and NEP 2020",
+          overview: "Across the political spectrum, India debates its conscience. The AIPPM brings together every party voice to confront how the Republic responds to discrimination, refugees, and international accountability.",
+          board: "Announcements forthcoming. The TRIKAYA Secretariat is curating an experienced board for AIPPM.",
+          resources: ["Background Guide (releasing soon)", "Rules of Procedure", "Country Matrix"]
+        },
+        ipc: {
+          id: "ipc",
+          name: "IPC",
+          level: "SPECIALISED · COMMITTEE",
+          fullName: "International Press Corps",
+          tagline: "The Fourth Estate at Work",
+          agenda: "Journalist, Caricaturist and Photographer Committee.",
+          overview: "Behind every headline is a witness. IPC delegates serve as journalists, Caricaturist and photographers — covering committees in real time, breaking news, photo essays, and the editorials that shape the conference narrative.",
+          board: "Announcements forthcoming. The TRIKAYA Secretariat is curating an experienced board for IPC.",
+          resources: ["Background Guide (releasing soon)", "Rules of Procedure", "Country Matrix"]
+        },
+        ipl: {
+          id: "ipl",
+          name: "IPL",
+          level: "BEGINNER · COMMITTEE",
+          fullName: "Indian Premier League — Mega Auction (only Day 2)",
+          tagline: "Bid. Strategise. Dominate.",
+          agenda: "Mega Auction 2026.",
+          overview: "The boardroom replaces the boundary rope. Franchise owners, team managers, and analysts negotiate purse strategy, player valuations, and the high-stakes drama of the Mega Auction.",
+          board: "Announcements forthcoming. The TRIKAYA Secretariat is curating an experienced board for IPL.",
+          resources: ["Background Guide (releasing soon)", "Rules of Procedure", "Country Matrix"]
+        },
+        harrypotter: {
+          id: "harrypotter",
+          name: "Harry Potter",
+          level: "SPECIALISED · COMMITTEE",
+          fullName: "The Harry Potter Committee",
+          tagline: "Mischief Managed.",
+          agenda: "Classified.",
+          overview: "A committee shrouded in secrecy. The agenda will be revealed only to those who accept the call. Expect intrigue, alliances, and crisis updates from the wizarding world.",
+          board: "Announcements forthcoming. The TRIKAYA Secretariat is curating an experienced board for Harry Potter.",
+          resources: ["Background Guide (releasing soon)", "Rules of Procedure", "Country Matrix"]
+        },
+        mahabharat: {
+          id: "mahabharat",
+          name: "Mahabharat",
+          level: "ADVANCED · COMMITTEE",
+          fullName: "Mahabharat",
+          tagline: "Yudh Ka Aadhaar",
+          agenda: "Yudh Ka Aadhaar: Dharm Ya Rajya Ki Lalasa?",
+          overview: "The Kurukshetra of conscience. Delegates assume the great roles of the epic to weigh dharma against ambition, kinship against kingdom — a committee conducted in Hindi and bilingual delivery.",
+          board: "Announcements forthcoming. The TRIKAYA Secretariat is curating an experienced board for Mahabharat.",
+          resources: ["Background Guide (releasing soon)", "Rules of Procedure", "Country Matrix"]
+        }
+      };
+
+      var overlay = document.getElementById("committee-modal-overlay");
+      var registerBtn = document.getElementById("modal-register-btn");
+      var closeAll = document.getElementById("modal-close-all");
+      var closeX = document.getElementById("modal-close-x");
+
+      function openModal(id) {
+        var c = COMMITTEES[id];
+        if (!c) return;
+
+        // Populate
+        document.getElementById("modal-eyebrow").textContent = c.level;
+        document.getElementById("modal-title").textContent = c.name;
+        document.getElementById("modal-subtitle").textContent = c.fullName;
+        document.getElementById("modal-tagline").textContent = c.tagline;
+        document.getElementById("modal-agenda").textContent = c.agenda;
+        document.getElementById("modal-overview").textContent = c.overview;
+        document.getElementById("modal-board").textContent = c.board;
+        registerBtn.textContent = "Register for " + c.name;
+
+        var resList = document.getElementById("modal-resources");
+        resList.innerHTML = "";
+        c.resources.forEach(function (r) {
+          var li = document.createElement("li");
+          li.textContent = r;
+          resList.appendChild(li);
+        });
+
+        // Show
+        overlay.setAttribute("aria-hidden", "false");
+        overlay.classList.add("is-open");
+        document.body.classList.add("modal-open");
+
+        // Scroll to top of modal
+        document.getElementById("committee-modal-container").scrollTop = 0;
+      }
+
+      function closeModal() {
+        overlay.classList.remove("is-open");
+        overlay.setAttribute("aria-hidden", "true");
+        document.body.classList.remove("modal-open");
+      }
+
+      // Expose openModal globally for inline onclick handlers on back-face buttons
+      window.openCommitteeModal = openModal;
+
+      // Close on overlay click
+      overlay.addEventListener("click", function (e) {
+        if (e.target === overlay) closeModal();
+      });
+
+      // Close X button
+      closeX.addEventListener("click", closeModal);
+
+      // All Committees button
+      closeAll.addEventListener("click", closeModal);
+
+      // Register button -> scroll to register section
+      registerBtn.addEventListener("click", function () {
+        closeModal();
+        setTimeout(function () {
+          var reg = document.getElementById("register");
+          if (reg) reg.scrollIntoView({ behavior: "smooth" });
+        }, 350);
+      });
+
+      // Keyboard close
+      document.addEventListener("keydown", function (e) {
+        if (e.key === "Escape") closeModal();
+      });
+    })();
+  </script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const el = document.querySelector('.prize-pool-number');
+      if (!el) return;
+      let val = 0; const target = 100000; let animating = false;
+      function fmt(n) { return n.toLocaleString('en-IN'); }
+      function animate() {
+        if (animating) return; animating = true;
+        const start = Date.now();
+        function loop() {
+          const elapsed = Date.now() - start;
+          const prog = Math.min(elapsed / 2500, 1);
+          const eased = prog < 0.5 ? 2 * prog * prog : -1 + (4 - 2 * prog) * prog;
+          val = Math.floor(target * eased);
+          el.textContent = fmt(val);
+          if (prog < 1) requestAnimationFrame(loop);
+          else { val = target; el.textContent = fmt(target); animating = false; }
+        }
+        requestAnimationFrame(loop);
+      }
+      new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting && !animating && val === 0) {
+            animate();
+            this.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.3 }).observe(el);
     });
+  </script>
+</body>
 
-    // Show
-    overlay.setAttribute("aria-hidden", "false");
-    overlay.classList.add("is-open");
-    document.body.classList.add("modal-open");
-
-    // Scroll to top of modal
-    document.getElementById("committee-modal-container").scrollTop = 0;
-  }
-
-  function closeModal() {
-    overlay.classList.remove("is-open");
-    overlay.setAttribute("aria-hidden", "true");
-    document.body.classList.remove("modal-open");
-  }
-
-  // Expose openModal globally for inline onclick handlers on back-face buttons
-  window.openCommitteeModal = openModal;
-
-  // Close on overlay click
-  overlay.addEventListener("click", function(e) {
-    if (e.target === overlay) closeModal();
-  });
-
-  // Close X button
-  closeX.addEventListener("click", closeModal);
-
-  // All Committees button
-  closeAll.addEventListener("click", closeModal);
-
-  // Register button -> scroll to register section
-  registerBtn.addEventListener("click", function() {
-    closeModal();
-    setTimeout(function() {
-      var reg = document.getElementById("register");
-      if (reg) reg.scrollIntoView({ behavior: "smooth" });
-    }, 350);
-  });
-
-  // Keyboard close
-  document.addEventListener("keydown", function(e) {
-    if (e.key === "Escape") closeModal();
-  });
-})();
-</script>
-
-<script>
-document.addEventListener('DOMContentLoaded',function(){
-const el=document.querySelector('.prize-pool-number');
-if(!el)return;
-let val=0;const target=100000;let animating=false;
-function fmt(n){return n.toLocaleString('en-IN');}
-function animate(){
-if(animating)return;animating=true;
-const start=Date.now();
-function loop(){
-const elapsed=Date.now()-start;
-const prog=Math.min(elapsed/2500,1);
-const eased=prog<0.5?2*prog*prog:-1+(4-2*prog)*prog;
-val=Math.floor(target*eased);
-el.textContent=fmt(val);
-if(prog<1)requestAnimationFrame(loop);
-else{val=target;el.textContent=fmt(target);animating=false;}
-}
-requestAnimationFrame(loop);
-}
-new IntersectionObserver(entries=>{
-entries.forEach(entry=>{
-if(entry.isIntersecting&&!animating&&val===0){
-animate();
-this.unobserve(entry.target);
-}
-});
-},{threshold:0.3}).observe(el);
-});
-</script>
-</body></html>
+</html>
